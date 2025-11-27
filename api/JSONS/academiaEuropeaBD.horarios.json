@@ -1,0 +1,225 @@
+[{
+  "_id": {
+    "$oid": "690bd000106b6773039b1d7e"
+  },
+  "cursoId": {
+    "$oid": "665e7d60f4e1c500c4f8d601"
+  },
+  "diaSemana": "Lunes",
+  "horaInicio": "15:00",
+  "horaFin": "16:30",
+  "aula": "665e7d50123f1010a0a0a004",
+  "fechaCreacion": {
+    "$date": "2025-11-05T22:30:24.665Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "690bd000106b6773039b1d7f"
+  },
+  "cursoId": {
+    "$oid": "665e7d60f4e1c500c4f8d601"
+  },
+  "diaSemana": "Miércoles",
+  "horaInicio": "15:00",
+  "horaFin": "16:30",
+  "aula": "665e7d50123f1010a0a0a004",
+  "fechaCreacion": {
+    "$date": "2025-11-05T22:30:24.665Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "690bd000106b6773039b1d80"
+  },
+  "cursoId": {
+    "$oid": "665e7d60f4e1c500c4f8d601"
+  },
+  "diaSemana": "Viernes",
+  "horaInicio": "15:00",
+  "horaFin": "16:30",
+  "aula": "665e7d50123f1010a0a0a002",
+  "fechaCreacion": {
+    "$date": "2025-11-05T22:30:24.665Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "690bd000106b6773039b1d81"
+  },
+  "cursoId": {
+    "$oid": "665e7d60f4e1c500c4f8d602"
+  },
+  "diaSemana": "Martes",
+  "horaInicio": "19:30",
+  "horaFin": "21:00",
+  "aula": "665e7d50123f1010a0a0a004",
+  "fechaCreacion": {
+    "$date": "2025-11-05T22:30:24.665Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "690bd000106b6773039b1d82"
+  },
+  "cursoId": {
+    "$oid": "665e7d60f4e1c500c4f8d602"
+  },
+  "diaSemana": "Jueves",
+  "horaInicio": "19:30",
+  "horaFin": "21:00",
+  "aula": "665e7d50123f1010a0a0a002",
+  "fechaCreacion": {
+    "$date": "2025-11-05T22:30:24.665Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "690bd000106b6773039b1d83"
+  },
+  "cursoId": {
+    "$oid": "665e7d60f4e1c500c4f8d605"
+  },
+  "diaSemana": "Lunes",
+  "horaInicio": "10:00",
+  "horaFin": "11:30",
+  "aula": "665e7d50123f1010a0a0a004",
+  "fechaCreacion": {
+    "$date": "2025-11-05T22:30:24.665Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "690bd000106b6773039b1d84"
+  },
+  "cursoId": {
+    "$oid": "665e7d60f4e1c500c4f8d605"
+  },
+  "diaSemana": "Miércoles",
+  "horaInicio": "10:00",
+  "horaFin": "11:30",
+  "aula": "665e7d50123f1010a0a0a004",
+  "fechaCreacion": {
+    "$date": "2025-11-05T22:30:24.665Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "690bd000106b6773039b1d85"
+  },
+  "cursoId": {
+    "$oid": "665e7d60f4e1c500c4f8d607"
+  },
+  "diaSemana": "Martes",
+  "horaInicio": "17:00",
+  "horaFin": "18:30",
+  "aula": "665e7d50123f1010a0a0a002",
+  "fechaCreacion": {
+    "$date": "2025-11-05T22:30:24.665Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "690bd000106b6773039b1d86"
+  },
+  "cursoId": {
+    "$oid": "665e7d60f4e1c500c4f8d607"
+  },
+  "diaSemana": "Jueves",
+  "horaInicio": "17:00",
+  "horaFin": "18:30",
+  "aula": "665e7d50123f1010a0a0a002",
+  "fechaCreacion": {
+    "$date": "2025-11-05T22:30:24.665Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "690bd000106b6773039b1d87"
+  },
+  "cursoId": {
+    "$oid": "665e7d60f4e1c500c4f8d60a"
+  },
+  "diaSemana": "Lunes",
+  "horaInicio": "18:00",
+  "horaFin": "20:00",
+  "aula": "665e7d50123f1010a0a0a009",
+  "fechaCreacion": {
+    "$date": "2025-11-05T22:30:24.665Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "690bd000106b6773039b1d88"
+  },
+  "cursoId": {
+    "$oid": "665e7d60f4e1c500c4f8d60a"
+  },
+  "diaSemana": "Miércoles",
+  "horaInicio": "18:00",
+  "horaFin": "20:00",
+  "aula": "665e7d50123f1010a0a0a009",
+  "fechaCreacion": {
+    "$date": "2025-11-05T22:30:24.665Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "690bd000106b6773039b1d89"
+  },
+  "cursoId": {
+    "$oid": "665e7d60f4e1c500c4f8d603"
+  },
+  "diaSemana": "Sábado",
+  "horaInicio": "09:00",
+  "horaFin": "13:00",
+  "aula": "665e7d50123f1010a0a0a001",
+  "fechaCreacion": {
+    "$date": "2025-11-05T22:30:24.665Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "690bd000106b6773039b1d8a"
+  },
+  "cursoId": {
+    "$oid": "665e7d60f4e1c500c4f8d60b"
+  },
+  "diaSemana": "Martes",
+  "horaInicio": "19:00",
+  "horaFin": "20:30",
+  "aula": "665e7d50123f1010a0a0a004",
+  "fechaCreacion": {
+    "$date": "2025-11-05T22:30:24.665Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "690bd000106b6773039b1d8b"
+  },
+  "cursoId": {
+    "$oid": "665e7d60f4e1c500c4f8d60b"
+  },
+  "diaSemana": "Jueves",
+  "horaInicio": "19:00",
+  "horaFin": "20:30",
+  "aula": "665e7d50123f1010a0a0a004",
+  "fechaCreacion": {
+    "$date": "2025-11-05T22:30:24.665Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "690bd000106b6773039b1d8c"
+  },
+  "cursoId": {
+    "$oid": "665e7d60f4e1c500c4f8d60e"
+  },
+  "diaSemana": "Viernes",
+  "horaInicio": "17:00",
+  "horaFin": "19:00",
+  "aula": "665e7d50123f1010a0a0a006",
+  "fechaCreacion": {
+    "$date": "2025-11-05T22:30:24.665Z"
+  }
+}]

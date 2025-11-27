@@ -1,0 +1,255 @@
+[{
+  "_id": {
+    "$oid": "690bd0b9106b6773039b1d9c"
+  },
+  "estudianteId": {
+    "$oid": "665e7d5402a5a510c4f8d504"
+  },
+  "monto": 50,
+  "fechaPago": {
+    "$date": "2025-10-25T00:00:00.000Z"
+  },
+  "metodoPago": "Tarjeta de Crédito",
+  "estado": "pagado",
+  "fechaCreacion": {
+    "$date": "2025-10-25T00:00:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "690bd0b9106b6773039b1d9d"
+  },
+  "estudianteId": {
+    "$oid": "665e7d5402a5a510c4f8d505"
+  },
+  "monto": 50,
+  "fechaPago": {
+    "$date": "2025-09-10T00:00:00.000Z"
+  },
+  "metodoPago": "Transferencia Bancaria",
+  "estado": "pagado",
+  "fechaCreacion": {
+    "$date": "2025-09-10T00:00:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "690bd0b9106b6773039b1d9e"
+  },
+  "estudianteId": {
+    "$oid": "665e7d5402a5a510c4f8d504"
+  },
+  "monto": 120,
+  "fechaPago": {
+    "$date": "2025-11-01T00:00:00.000Z"
+  },
+  "metodoPago": "Tarjeta de Débito",
+  "estado": "pagado",
+  "fechaCreacion": {
+    "$date": "2025-11-01T00:00:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "690bd0b9106b6773039b1d9f"
+  },
+  "estudianteId": {
+    "$oid": "665e7d5402a5a510c4f8d505"
+  },
+  "monto": 110,
+  "fechaPago": {
+    "$date": "2025-10-30T00:00:00.000Z"
+  },
+  "metodoPago": "Transferencia Bancaria",
+  "estado": "pagado",
+  "fechaCreacion": {
+    "$date": "2025-10-30T00:00:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "690bd0b9106b6773039b1da0"
+  },
+  "estudianteId": {
+    "$oid": "665e7d5402a5a510c4f8d50d"
+  },
+  "monto": 140,
+  "fechaPago": {
+    "$date": "2025-11-03T00:00:00.000Z"
+  },
+  "metodoPago": "PayPal",
+  "estado": "pagado",
+  "fechaCreacion": {
+    "$date": "2025-11-03T00:00:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "690bd0b9106b6773039b1da1"
+  },
+  "estudianteId": {
+    "$oid": "665e7d5402a5a510c4f8d50a"
+  },
+  "monto": 130,
+  "fechaPago": {
+    "$date": "2025-11-04T00:00:00.000Z"
+  },
+  "metodoPago": "Efectivo",
+  "estado": "pagado",
+  "fechaCreacion": {
+    "$date": "2025-11-04T00:00:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "690bd0b9106b6773039b1da2"
+  },
+  "estudianteId": {
+    "$oid": "665e7d5402a5a510c4f8d504"
+  },
+  "monto": 120,
+  "fechaPago": {
+    "$date": "2025-12-01T00:00:00.000Z"
+  },
+  "metodoPago": "Tarjeta de Débito",
+  "estado": "pendiente",
+  "fechaCreacion": {
+    "$date": "2025-11-28T00:00:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "690bd0b9106b6773039b1da3"
+  },
+  "estudianteId": {
+    "$oid": "665e7d5402a5a510c4f8d50d"
+  },
+  "monto": 140,
+  "fechaPago": {
+    "$date": "2025-12-01T00:00:00.000Z"
+  },
+  "metodoPago": "PayPal",
+  "estado": "pendiente",
+  "fechaCreacion": {
+    "$date": "2025-11-29T00:00:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "690bd0b9106b6773039b1da4"
+  },
+  "estudianteId": {
+    "$oid": "665e7d5402a5a510c4f8d50b"
+  },
+  "monto": 50,
+  "fechaPago": {
+    "$date": "2025-07-01T00:00:00.000Z"
+  },
+  "metodoPago": "Tarjeta de Crédito",
+  "estado": "fallido",
+  "fechaCreacion": {
+    "$date": "2025-07-01T00:00:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "690bd0b9106b6773039b1da5"
+  },
+  "estudianteId": {
+    "$oid": "665e7d5402a5a510c4f8d508"
+  },
+  "monto": 100,
+  "fechaPago": {
+    "$date": "2024-06-15T00:00:00.000Z"
+  },
+  "metodoPago": "Efectivo",
+  "estado": "pagado",
+  "fechaCreacion": {
+    "$date": "2024-06-15T00:00:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "690bd0b9106b6773039b1da6"
+  },
+  "estudianteId": {
+    "$oid": "665e7d5402a5a510c4f8d504"
+  },
+  "monto": 25,
+  "fechaPago": {
+    "$date": "2025-11-05T00:00:00.000Z"
+  },
+  "metodoPago": "Efectivo",
+  "estado": "pagado",
+  "fechaCreacion": {
+    "$date": "2025-11-05T00:00:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "690bd0b9106b6773039b1da7"
+  },
+  "estudianteId": {
+    "$oid": "665e7d5402a5a510c4f8d51b"
+  },
+  "monto": 90,
+  "fechaPago": {
+    "$date": "2025-11-01T00:00:00.000Z"
+  },
+  "metodoPago": "Transferencia Bancaria",
+  "estado": "pagado",
+  "fechaCreacion": {
+    "$date": "2025-11-01T00:00:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "690bd0b9106b6773039b1da8"
+  },
+  "estudianteId": {
+    "$oid": "665e7d5402a5a510c4f8d51e"
+  },
+  "monto": 180,
+  "fechaPago": {
+    "$date": "2025-08-01T00:00:00.000Z"
+  },
+  "metodoPago": "Tarjeta de Crédito",
+  "estado": "pagado",
+  "fechaCreacion": {
+    "$date": "2025-08-01T00:00:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "690bd0b9106b6773039b1da9"
+  },
+  "estudianteId": {
+    "$oid": "665e7d5402a5a510c4f8d51d"
+  },
+  "monto": 100,
+  "fechaPago": {
+    "$date": "2024-05-01T00:00:00.000Z"
+  },
+  "metodoPago": "PayPal",
+  "estado": "pagado",
+  "fechaCreacion": {
+    "$date": "2024-05-01T00:00:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "690bd0b9106b6773039b1daa"
+  },
+  "estudianteId": {
+    "$oid": "665e7d5402a5a510c4f8d50d"
+  },
+  "monto": 140,
+  "fechaPago": {
+    "$date": "2025-10-03T00:00:00.000Z"
+  },
+  "metodoPago": "PayPal",
+  "estado": "pagado",
+  "fechaCreacion": {
+    "$date": "2025-10-03T00:00:00.000Z"
+  }
+}]

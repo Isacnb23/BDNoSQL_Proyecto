@@ -1,0 +1,255 @@
+[{
+  "_id": {
+    "$oid": "690bd117106b6773039b1dab"
+  },
+  "cursoId": {
+    "$oid": "665e7d60f4e1c500c4f8d601"
+  },
+  "nombre": "Cuestionario Unidad 1: To Be & WH Questions",
+  "tipo": "Escrito",
+  "fecha": {
+    "$date": "2025-11-25T00:00:00.000Z"
+  },
+  "puntajeMaximo": 20,
+  "fechaCreacion": {
+    "$date": "2025-11-05T22:35:03.225Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "690bd117106b6773039b1dac"
+  },
+  "cursoId": {
+    "$oid": "665e7d60f4e1c500c4f8d601"
+  },
+  "nombre": "Simulación de Presentación Personal",
+  "tipo": "Oral",
+  "fecha": {
+    "$date": "2025-12-05T00:00:00.000Z"
+  },
+  "puntajeMaximo": 30,
+  "fechaCreacion": {
+    "$date": "2025-11-05T22:35:03.225Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "690bd117106b6773039b1dad"
+  },
+  "cursoId": {
+    "$oid": "665e7d60f4e1c500c4f8d601"
+  },
+  "nombre": "Examen Final A1",
+  "tipo": "Final",
+  "fecha": {
+    "$date": "2026-01-15T00:00:00.000Z"
+  },
+  "puntajeMaximo": 50,
+  "fechaCreacion": {
+    "$date": "2025-11-05T22:35:03.225Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "690bd117106b6773039b1dae"
+  },
+  "cursoId": {
+    "$oid": "665e7d60f4e1c500c4f8d602"
+  },
+  "nombre": "Ensayo Crítico sobre IA",
+  "tipo": "Proyecto",
+  "fecha": {
+    "$date": "2025-11-30T00:00:00.000Z"
+  },
+  "puntajeMaximo": 40,
+  "fechaCreacion": {
+    "$date": "2025-11-05T22:35:03.225Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "690bd117106b6773039b1daf"
+  },
+  "cursoId": {
+    "$oid": "665e7d60f4e1c500c4f8d602"
+  },
+  "nombre": "Debate Final: Cambio Climático",
+  "tipo": "Oral",
+  "fecha": {
+    "$date": "2026-01-20T00:00:00.000Z"
+  },
+  "puntajeMaximo": 60,
+  "fechaCreacion": {
+    "$date": "2025-11-05T22:35:03.225Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "690bd117106b6773039b1db0"
+  },
+  "cursoId": {
+    "$oid": "665e7d60f4e1c500c4f8d605"
+  },
+  "nombre": "Quiz: Passé Composé et Avoir/Être",
+  "tipo": "Escrito",
+  "fecha": {
+    "$date": "2025-11-28T00:00:00.000Z"
+  },
+  "puntajeMaximo": 25,
+  "fechaCreacion": {
+    "$date": "2025-11-05T22:35:03.225Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "690bd117106b6773039b1db1"
+  },
+  "cursoId": {
+    "$oid": "665e7d60f4e1c500c4f8d605"
+  },
+  "nombre": "Diálogo Simulado en Restaurante",
+  "tipo": "Oral",
+  "fecha": {
+    "$date": "2025-12-10T00:00:00.000Z"
+  },
+  "puntajeMaximo": 35,
+  "fechaCreacion": {
+    "$date": "2025-11-05T22:35:03.225Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "690bd117106b6773039b1db2"
+  },
+  "cursoId": {
+    "$oid": "665e7d60f4e1c500c4f8d607"
+  },
+  "nombre": "Examen de Tonos y Pinyin",
+  "tipo": "Oral",
+  "fecha": {
+    "$date": "2025-11-25T00:00:00.000Z"
+  },
+  "puntajeMaximo": 20,
+  "fechaCreacion": {
+    "$date": "2025-11-05T22:35:03.225Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "690bd117106b6773039b1db3"
+  },
+  "cursoId": {
+    "$oid": "665e7d60f4e1c500c4f8d607"
+  },
+  "nombre": "Reconocimiento de 150 Caracteres",
+  "tipo": "Escrito",
+  "fecha": {
+    "$date": "2026-01-05T00:00:00.000Z"
+  },
+  "puntajeMaximo": 50,
+  "fechaCreacion": {
+    "$date": "2025-11-05T22:35:03.225Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "690bd117106b6773039b1db4"
+  },
+  "cursoId": {
+    "$oid": "665e7d60f4e1c500c4f8d609"
+  },
+  "nombre": "Práctica de Interacciones Turísticas",
+  "tipo": "Oral",
+  "fecha": {
+    "$date": "2025-12-01T00:00:00.000Z"
+  },
+  "puntajeMaximo": 30,
+  "fechaCreacion": {
+    "$date": "2025-11-05T22:35:03.225Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "690bd117106b6773039b1db5"
+  },
+  "cursoId": {
+    "$oid": "665e7d60f4e1c500c4f8d60a"
+  },
+  "nombre": "Uso Correcto del Subjuntivo",
+  "tipo": "Escrito",
+  "fecha": {
+    "$date": "2025-12-15T00:00:00.000Z"
+  },
+  "puntajeMaximo": 40,
+  "fechaCreacion": {
+    "$date": "2025-11-05T22:35:03.225Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "690bd117106b6773039b1db6"
+  },
+  "cursoId": {
+    "$oid": "665e7d60f4e1c500c4f8d603"
+  },
+  "nombre": "Simulacro TOEFL - Reading Section",
+  "tipo": "Escrito",
+  "fecha": {
+    "$date": "2025-11-20T00:00:00.000Z"
+  },
+  "puntajeMaximo": 30,
+  "fechaCreacion": {
+    "$date": "2025-11-05T22:35:03.225Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "690bd117106b6773039b1db7"
+  },
+  "cursoId": {
+    "$oid": "665e7d60f4e1c500c4f8d60e"
+  },
+  "nombre": "Análisis de Texto Literario",
+  "tipo": "Proyecto",
+  "fecha": {
+    "$date": "2026-01-10T00:00:00.000Z"
+  },
+  "puntajeMaximo": 50,
+  "fechaCreacion": {
+    "$date": "2025-11-05T22:35:03.225Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "690bd117106b6773039b1db8"
+  },
+  "cursoId": {
+    "$oid": "665e7d60f4e1c500c4f8d60d"
+  },
+  "nombre": "Uso Honorífico y Formas Formales",
+  "tipo": "Oral",
+  "fecha": {
+    "$date": "2025-12-05T00:00:00.000Z"
+  },
+  "puntajeMaximo": 30,
+  "fechaCreacion": {
+    "$date": "2025-11-05T22:35:03.225Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "690bd117106b6773039b1db9"
+  },
+  "cursoId": {
+    "$oid": "665e7d60f4e1c500c4f8d604"
+  },
+  "nombre": "Redacción de Correo Ejecutivo",
+  "tipo": "Escrito",
+  "fecha": {
+    "$date": "2025-12-01T00:00:00.000Z"
+  },
+  "puntajeMaximo": 20,
+  "fechaCreacion": {
+    "$date": "2025-11-05T22:35:03.225Z"
+  }
+}]

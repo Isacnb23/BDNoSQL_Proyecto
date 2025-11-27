@@ -1,0 +1,180 @@
+[{
+  "_id": {
+    "$oid": "690bc400106b6773039b1cf7"
+  },
+  "nombre": "Sede Central - Ciudad de México",
+  "direccion": "Av. Paseo de la Reforma 296, Col. Juárez, CDMX",
+  "telefono": "+52 55 1234 5678",
+  "ciudad": "Ciudad de México",
+  "fechaCreacion": {
+    "$date": "2018-01-15T00:00:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "690bc400106b6773039b1cf8"
+  },
+  "nombre": "Sede Guadalajara - Zona Minerva",
+  "direccion": "Av. Vallarta 2440, Col. Arcos Vallarta, Guadalajara",
+  "telefono": "+52 33 9876 5432",
+  "ciudad": "Guadalajara",
+  "fechaCreacion": {
+    "$date": "2019-05-20T00:00:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "690bc400106b6773039b1cf9"
+  },
+  "nombre": "Sede Virtual Global",
+  "direccion": "Plataforma Online Principal",
+  "telefono": "+1 800 555 1212",
+  "ciudad": "Virtual",
+  "fechaCreacion": {
+    "$date": "2017-08-01T00:00:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "690bc400106b6773039b1cfa"
+  },
+  "nombre": "Sede Madrid - Barrio Salamanca",
+  "direccion": "Calle de Serrano 88, 28006 Madrid",
+  "telefono": "+34 91 678 9012",
+  "ciudad": "Madrid",
+  "fechaCreacion": {
+    "$date": "2021-03-10T00:00:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "690bc400106b6773039b1cfb"
+  },
+  "nombre": "Sede Buenos Aires - Palermo",
+  "direccion": "Av. Santa Fe 3200, Palermo, CABA",
+  "telefono": "+54 11 4567 8901",
+  "ciudad": "Buenos Aires",
+  "fechaCreacion": {
+    "$date": "2020-11-25T00:00:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "690bc400106b6773039b1cfc"
+  },
+  "nombre": "Sede Bogotá - Chapinero",
+  "direccion": "Carrera 7 # 63-30, Chapinero, Bogotá",
+  "telefono": "+57 1 345 6789",
+  "ciudad": "Bogotá",
+  "fechaCreacion": {
+    "$date": "2022-07-05T00:00:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "690bc400106b6773039b1cfd"
+  },
+  "nombre": "Sede Lima - Miraflores",
+  "direccion": "Av. Larco 105, Miraflores, Lima",
+  "telefono": "+51 1 234 5670",
+  "ciudad": "Lima",
+  "fechaCreacion": {
+    "$date": "2023-01-08T00:00:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "690bc400106b6773039b1cfe"
+  },
+  "nombre": "Sede Monterrey - San Pedro",
+  "direccion": "Av. Lázaro Cárdenas 1000, San Pedro Garza García",
+  "telefono": "+52 81 1122 3344",
+  "ciudad": "Monterrey",
+  "fechaCreacion": {
+    "$date": "2020-02-14T00:00:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "690bc400106b6773039b1cff"
+  },
+  "nombre": "Sede Quito - La Carolina",
+  "direccion": "Av. Eloy Alfaro y Amazonas, Edificio La Carolina",
+  "telefono": "+593 2 987 654",
+  "ciudad": "Quito",
+  "fechaCreacion": {
+    "$date": "2024-04-18T00:00:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "690bc400106b6773039b1d00"
+  },
+  "nombre": "Sede Especializada en Negocios (Online)",
+  "direccion": "Plataforma para Cursos Corporativos",
+  "telefono": "+1 800 555 1213",
+  "ciudad": "Virtual Corporativa",
+  "fechaCreacion": {
+    "$date": "2019-10-01T00:00:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "690bc400106b6773039b1d01"
+  },
+  "nombre": "Sede Santiago - Providencia",
+  "direccion": "Av. Providencia 1050, Providencia, Santiago",
+  "telefono": "+56 2 2456 7890",
+  "ciudad": "Santiago",
+  "fechaCreacion": {
+    "$date": "2021-09-02T00:00:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "690bc400106b6773039b1d02"
+  },
+  "nombre": "Sede Remota - Costa del Sol",
+  "direccion": "Calle Larios 5, Málaga, España",
+  "telefono": "+34 95 210 2030",
+  "ciudad": "Málaga",
+  "fechaCreacion": {
+    "$date": "2023-05-30T00:00:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "690bc400106b6773039b1d03"
+  },
+  "nombre": "Sede Barcelona - Eixample",
+  "direccion": "Carrer de Balmes 200, Eixample, Barcelona",
+  "telefono": "+34 93 456 1234",
+  "ciudad": "Barcelona",
+  "fechaCreacion": {
+    "$date": "2022-11-15T00:00:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "690bc400106b6773039b1d04"
+  },
+  "nombre": "Sede Panamá - El Cangrejo",
+  "direccion": "Vía España, Edificio Torre del Mar, Panamá",
+  "telefono": "+507 264 7890",
+  "ciudad": "Panamá",
+  "fechaCreacion": {
+    "$date": "2024-01-22T00:00:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "690bc400106b6773039b1d05"
+  },
+  "nombre": "Sede Virtual Intensiva",
+  "direccion": "Servidor de Clases Rápido",
+  "telefono": "+1 800 555 1214",
+  "ciudad": "Virtual Intensiva",
+  "fechaCreacion": {
+    "$date": "2022-04-04T00:00:00.000Z"
+  }
+}]

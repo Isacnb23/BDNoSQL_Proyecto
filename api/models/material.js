@@ -1,0 +1,30 @@
+const mongoose = require('mongoose');
+
+const materialSchema = new mongoose.Schema({
+    nombre: {
+        type: String,
+        required: true
+    },
+    descripcion: {
+        type: String,
+        required: true
+    },
+    tipo: {
+        type: String,
+        required: true
+    },
+    url: {
+        type: String,
+        required: true
+    },
+    cursoId: {
+        type: mongoose.Schema.Types.ObjectId,
+        required: true
+    },
+    fechaCreacion: {
+        type: Date,
+        default: Date.now
+    }
+});
+
+module.exports = mongoose.model('material', materialSchema);

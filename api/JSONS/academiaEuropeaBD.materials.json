@@ -1,0 +1,225 @@
+[{
+  "_id": {
+    "$oid": "690bd223106b6773039b1dc9"
+  },
+  "nombre": "Libro de Trabajo A1: Unidad 1",
+  "descripcion": "Ejercicios de vocabulario y gramática para el Módulo 1.",
+  "tipo": "PDF",
+  "url": "https://recursos-academia.com/starter_a1/unidad1_ejercicios.pdf",
+  "cursoId": {
+    "$oid": "665e7d60f4e1c500c4f8d601"
+  },
+  "fechaCreacion": {
+    "$date": "2025-10-20T00:00:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "690bd223106b6773039b1dca"
+  },
+  "nombre": "Video: Pronunciación del 'TH'",
+  "descripcion": "Tutorial corto sobre los sonidos fricativos dentales.",
+  "tipo": "Video",
+  "url": "https://recursos-academia.com/videos/pronunciation_th.mp4",
+  "cursoId": {
+    "$oid": "665e7d60f4e1c500c4f8d601"
+  },
+  "fechaCreacion": {
+    "$date": "2025-11-05T00:00:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "690bd223106b6773039b1dcb"
+  },
+  "nombre": "Guía de Phrasal Verbs Avanzados",
+  "descripcion": "Listado de Phrasal Verbs comunes en contextos de debate.",
+  "tipo": "PDF",
+  "url": "https://recursos-academia.com/advanced_b2/phrasals_guide.pdf",
+  "cursoId": {
+    "$oid": "665e7d60f4e1c500c4f8d602"
+  },
+  "fechaCreacion": {
+    "$date": "2025-09-01T00:00:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "690bd223106b6773039b1dcc"
+  },
+  "nombre": "Artículo: El futuro de la IA y el empleo",
+  "descripcion": "Lectura obligatoria para el debate de la semana 5.",
+  "tipo": "Enlace",
+  "url": "https://medium.com/ia-futuro/articulo-empleo-ia",
+  "cursoId": {
+    "$oid": "665e7d60f4e1c500c4f8d602"
+  },
+  "fechaCreacion": {
+    "$date": "2025-10-15T00:00:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "690bd223106b6773039b1dcd"
+  },
+  "nombre": "Audio: Diálogos en la panadería",
+  "descripcion": "Grabación de nativos pidiendo pan y pastelería en una *boulangerie*.",
+  "tipo": "Audio",
+  "url": "https://recursos-academia.com/francais_a2/audio_boulangerie.mp3",
+  "cursoId": {
+    "$oid": "665e7d60f4e1c500c4f8d605"
+  },
+  "fechaCreacion": {
+    "$date": "2025-11-01T00:00:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "690bd223106b6773039b1dce"
+  },
+  "nombre": "Receta de Crêpes (Vocabulario de Cocina)",
+  "descripcion": "Documento con vocabulario específico para la unidad de gastronomía.",
+  "tipo": "PDF",
+  "url": "https://recursos-academia.com/francais_a2/recette_crepes.pdf",
+  "cursoId": {
+    "$oid": "665e7d60f4e1c500c4f8d605"
+  },
+  "fechaCreacion": {
+    "$date": "2025-11-05T00:00:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "690bd223106b6773039b1dcf"
+  },
+  "nombre": "Tabla de Pinyin y Tonos",
+  "descripcion": "Referencia rápida de todos los sonidos y la práctica de los cuatro tonos.",
+  "tipo": "PDF",
+  "url": "https://recursos-academia.com/hanyu_a1/pinyin_tabla.pdf",
+  "cursoId": {
+    "$oid": "665e7d60f4e1c500c4f8d607"
+  },
+  "fechaCreacion": {
+    "$date": "2025-10-01T00:00:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "690bd223106b6773039b1dd0"
+  },
+  "nombre": "Video: Orden de Trazos del Carácter",
+  "descripcion": "Demostración animada del orden de los trazos para caracteres básicos.",
+  "tipo": "Video",
+  "url": "https://recursos-academia.com/videos/trazos_mandarin.mp4",
+  "cursoId": {
+    "$oid": "665e7d60f4e1c500c4f8d607"
+  },
+  "fechaCreacion": {
+    "$date": "2025-10-15T00:00:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "690bd223106b6773039b1dd1"
+  },
+  "nombre": "Guía Avanzada del Subjuntivo",
+  "descripcion": "Reglas detalladas y ejercicios de transformación del modo verbal.",
+  "tipo": "Libro Digital",
+  "url": "https://recursos-academia.com/espanol_c1/guia_subjuntivo.epub",
+  "cursoId": {
+    "$oid": "665e7d60f4e1c500c4f8d60a"
+  },
+  "fechaCreacion": {
+    "$date": "2025-08-20T00:00:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "690bd223106b6773039b1dd2"
+  },
+  "nombre": "Flashcards de Hiragana y Katakana",
+  "descripcion": "Juego de tarjetas digitales para practicar los silabarios.",
+  "tipo": "Enlace",
+  "url": "https://app.quizlet.com/flashcards/japanese-a0",
+  "cursoId": {
+    "$oid": "665e7d60f4e1c500c4f8d60b"
+  },
+  "fechaCreacion": {
+    "$date": "2025-11-01T00:00:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "690bd223106b6773039b1dd3"
+  },
+  "nombre": "PDF: Honoríficos Coreanos (Nivel A2)",
+  "descripcion": "Reglas para el uso de la cortesía en diferentes contextos sociales.",
+  "tipo": "PDF",
+  "url": "https://recursos-academia.com/coreano_a2/honorificos.pdf",
+  "cursoId": {
+    "$oid": "665e7d60f4e1c500c4f8d60d"
+  },
+  "fechaCreacion": {
+    "$date": "2025-09-15T00:00:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "690bd223106b6773039b1dd4"
+  },
+  "nombre": "Audio libro: Cuentos de Pushkin (Fragmento)",
+  "descripcion": "Narración en ruso para práctica de escucha avanzada.",
+  "tipo": "Audio",
+  "url": "https://recursos-academia.com/ruso_c1/pushkin_fragment.mp3",
+  "cursoId": {
+    "$oid": "665e7d60f4e1c500c4f8d60e"
+  },
+  "fechaCreacion": {
+    "$date": "2025-09-01T00:00:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "690bd223106b6773039b1dd5"
+  },
+  "nombre": "Guía Rápida de Vocabulario Básico",
+  "descripcion": "Lista de las 100 palabras más comunes en el nivel A1.",
+  "tipo": "PDF",
+  "url": "https://recursos-academia.com/starter_a1/vocab_100.pdf",
+  "cursoId": {
+    "$oid": "665e7d60f4e1c500c4f8d601"
+  },
+  "fechaCreacion": {
+    "$date": "2025-10-25T00:00:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "690bd223106b6773039b1dd6"
+  },
+  "nombre": "Plantillas de Email Formal",
+  "descripcion": "Ejemplos de plantillas para redacción de correos ejecutivos.",
+  "tipo": "PDF",
+  "url": "https://recursos-academia.com/business_b2/email_templates.pdf",
+  "cursoId": {
+    "$oid": "665e7d60f4e1c500c4f8d604"
+  },
+  "fechaCreacion": {
+    "$date": "2025-11-01T00:00:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "690bd223106b6773039b1dd7"
+  },
+  "nombre": "Mapa Interactivo de Transporte Romano",
+  "descripcion": "Recurso web para planificar rutas en Italia.",
+  "tipo": "Enlace",
+  "url": "https://www.googlemaps.com/roma-transporte",
+  "cursoId": {
+    "$oid": "665e7d60f4e1c500c4f8d609"
+  },
+  "fechaCreacion": {
+    "$date": "2025-11-02T00:00:00.000Z"
+  }
+}]

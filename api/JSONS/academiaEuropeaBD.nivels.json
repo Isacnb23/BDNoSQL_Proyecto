@@ -1,0 +1,165 @@
+[{
+  "_id": {
+    "$oid": "690bc625106b6773039b1d15"
+  },
+  "nombre": "A1 - Principiante",
+  "descripcion": "Introducción al idioma, frases básicas de supervivencia y presentación personal.",
+  "duracion": 8,
+  "fechaCreacion": {
+    "$date": "2025-11-05T21:48:21.072Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "690bc625106b6773039b1d16"
+  },
+  "nombre": "A2 - Básico",
+  "descripcion": "Comunicación de tareas sencillas y rutinarias, intercambio de información básica.",
+  "duracion": 10,
+  "fechaCreacion": {
+    "$date": "2025-11-05T21:48:21.072Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "690bc625106b6773039b1d17"
+  },
+  "nombre": "B1.1 - Intermedio Inicial",
+  "descripcion": "Comprensión de los puntos principales en temas cotidianos y capacidad para producir textos sencillos.",
+  "duracion": 8,
+  "fechaCreacion": {
+    "$date": "2025-11-05T21:48:21.072Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "690bc625106b6773039b1d18"
+  },
+  "nombre": "B1.2 - Intermedio Transición",
+  "descripcion": "Desarrollo de fluidez limitada y capacidad para desenvolverse en la mayoría de las situaciones de viaje.",
+  "duracion": 8,
+  "fechaCreacion": {
+    "$date": "2025-11-05T21:48:21.072Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "690bc625106b6773039b1d19"
+  },
+  "nombre": "B2.1 - Intermedio Avanzado",
+  "descripcion": "Comprensión de ideas principales de textos complejos y capacidad de interactuar con cierta fluidez.",
+  "duracion": 10,
+  "fechaCreacion": {
+    "$date": "2025-11-05T21:48:21.072Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "690bc625106b6773039b1d1a"
+  },
+  "nombre": "B2.2 - Intermedio Superior",
+  "descripcion": "Uso flexible y efectivo del idioma para fines sociales, académicos y profesionales.",
+  "duracion": 10,
+  "fechaCreacion": {
+    "$date": "2025-11-05T21:48:21.072Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "690bc625106b6773039b1d1b"
+  },
+  "nombre": "C1 - Dominio Operativo Eficaz",
+  "descripcion": "Comprensión de una amplia gama de textos extensos y exigentes; expresión espontánea y fluida.",
+  "duracion": 12,
+  "fechaCreacion": {
+    "$date": "2025-11-05T21:48:21.072Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "690bc625106b6773039b1d1c"
+  },
+  "nombre": "C2 - Maestría",
+  "descripcion": "Dominio excepcional y manejo de matices sutiles, capaz de resumir información de diversas fuentes.",
+  "duracion": 12,
+  "fechaCreacion": {
+    "$date": "2025-11-05T21:48:21.072Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "690bc625106b6773039b1d1d"
+  },
+  "nombre": "Conversación Avanzada (B2+)",
+  "descripcion": "Clases enfocadas exclusivamente en la práctica oral, debate y mejora de la pronunciación.",
+  "duracion": 6,
+  "fechaCreacion": {
+    "$date": "2025-11-05T21:48:21.072Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "690bc625106b6773039b1d1e"
+  },
+  "nombre": "Preparación TOEFL/IELTS",
+  "descripcion": "Curso intensivo diseñado para familiarizar al estudiante con el formato de exámenes oficiales.",
+  "duracion": 8,
+  "fechaCreacion": {
+    "$date": "2025-11-05T21:48:21.072Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "690bc625106b6773039b1d1f"
+  },
+  "nombre": "A0 - Introducción Rápida",
+  "descripcion": "Curso exprés de reconocimiento de alfabeto y fonética, ideal para idiomas con escrituras no latinas.",
+  "duracion": 4,
+  "fechaCreacion": {
+    "$date": "2025-11-05T21:48:21.072Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "690bc625106b6773039b1d20"
+  },
+  "nombre": "Negocios B1+",
+  "descripcion": "Vocabulario y frases específicas para entornos laborales, reuniones y correspondencia de negocios.",
+  "duracion": 8,
+  "fechaCreacion": {
+    "$date": "2025-11-05T21:48:21.072Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "690bc625106b6773039b1d21"
+  },
+  "nombre": "Gramática Intensiva (B1-B2)",
+  "descripcion": "Enfoque profundo en estructuras gramaticales complejas y corrección de errores comunes.",
+  "duracion": 6,
+  "fechaCreacion": {
+    "$date": "2025-11-05T21:48:21.072Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "690bc625106b6773039b1d22"
+  },
+  "nombre": "Conversación Turística (A2)",
+  "descripcion": "Práctica de escenarios comunes en viajes: restaurantes, aeropuertos y hoteles.",
+  "duracion": 4,
+  "fechaCreacion": {
+    "$date": "2025-11-05T21:48:21.072Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "690bc625106b6773039b1d23"
+  },
+  "nombre": "Escritura Académica (C1)",
+  "descripcion": "Técnicas para redactar ensayos, artículos y documentos formales en el idioma meta.",
+  "duracion": 6,
+  "fechaCreacion": {
+    "$date": "2025-11-05T21:48:21.072Z"
+  }
+}]

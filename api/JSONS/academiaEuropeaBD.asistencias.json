@@ -1,0 +1,270 @@
+[{
+  "_id": {
+    "$oid": "690bd04d106b6773039b1d8d"
+  },
+  "estudianteId": {
+    "$oid": "665e7d5402a5a510c4f8d504"
+  },
+  "claseId": {
+    "$oid": "665e7d80f4e1c500c4f8d701"
+  },
+  "fecha": {
+    "$date": "2025-11-10T15:00:00.000Z"
+  },
+  "estado": "presente",
+  "fechaCreacion": {
+    "$date": "2025-11-10T16:00:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "690bd04d106b6773039b1d8e"
+  },
+  "estudianteId": {
+    "$oid": "665e7d5402a5a510c4f8d51f"
+  },
+  "claseId": {
+    "$oid": "665e7d80f4e1c500c4f8d701"
+  },
+  "fecha": {
+    "$date": "2025-11-10T15:00:00.000Z"
+  },
+  "estado": "presente",
+  "fechaCreacion": {
+    "$date": "2025-11-10T16:00:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "690bd04d106b6773039b1d8f"
+  },
+  "estudianteId": {
+    "$oid": "665e7d5402a5a510c4f8d50d"
+  },
+  "claseId": {
+    "$oid": "665e7d80f4e1c500c4f8d704"
+  },
+  "fecha": {
+    "$date": "2025-11-11T19:30:00.000Z"
+  },
+  "estado": "presente",
+  "fechaCreacion": {
+    "$date": "2025-11-11T20:30:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "690bd04d106b6773039b1d90"
+  },
+  "estudianteId": {
+    "$oid": "665e7d5402a5a510c4f8d523"
+  },
+  "claseId": {
+    "$oid": "665e7d80f4e1c500c4f8d704"
+  },
+  "fecha": {
+    "$date": "2025-11-11T19:30:00.000Z"
+  },
+  "estado": "ausente",
+  "fechaCreacion": {
+    "$date": "2025-11-11T20:30:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "690bd04d106b6773039b1d91"
+  },
+  "estudianteId": {
+    "$oid": "665e7d5402a5a510c4f8d504"
+  },
+  "claseId": {
+    "$oid": "665e7d80f4e1c500c4f8d702"
+  },
+  "fecha": {
+    "$date": "2025-11-12T15:00:00.000Z"
+  },
+  "estado": "tarde",
+  "fechaCreacion": {
+    "$date": "2025-11-12T16:00:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "690bd04d106b6773039b1d92"
+  },
+  "estudianteId": {
+    "$oid": "665e7d5402a5a510c4f8d51f"
+  },
+  "claseId": {
+    "$oid": "665e7d80f4e1c500c4f8d702"
+  },
+  "fecha": {
+    "$date": "2025-11-12T15:00:00.000Z"
+  },
+  "estado": "presente",
+  "fechaCreacion": {
+    "$date": "2025-11-12T16:00:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "690bd04d106b6773039b1d93"
+  },
+  "estudianteId": {
+    "$oid": "665e7d5402a5a510c4f8d50d"
+  },
+  "claseId": {
+    "$oid": "665e7d80f4e1c500c4f8d705"
+  },
+  "fecha": {
+    "$date": "2025-11-13T19:30:00.000Z"
+  },
+  "estado": "presente",
+  "fechaCreacion": {
+    "$date": "2025-11-13T20:30:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "690bd04d106b6773039b1d94"
+  },
+  "estudianteId": {
+    "$oid": "665e7d5402a5a510c4f8d505"
+  },
+  "claseId": {
+    "$oid": "665e7d80f4e1c500c4f8d706"
+  },
+  "fecha": {
+    "$date": "2025-11-15T10:00:00.000Z"
+  },
+  "estado": "presente",
+  "fechaCreacion": {
+    "$date": "2025-11-15T11:00:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "690bd04d106b6773039b1d95"
+  },
+  "estudianteId": {
+    "$oid": "665e7d5402a5a510c4f8d50b"
+  },
+  "claseId": {
+    "$oid": "665e7d80f4e1c500c4f8d706"
+  },
+  "fecha": {
+    "$date": "2025-11-15T10:00:00.000Z"
+  },
+  "estado": "ausente",
+  "fechaCreacion": {
+    "$date": "2025-11-15T11:00:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "690bd04d106b6773039b1d96"
+  },
+  "estudianteId": {
+    "$oid": "665e7d5402a5a510c4f8d50a"
+  },
+  "claseId": {
+    "$oid": "665e7d80f4e1c500c4f8d709"
+  },
+  "fecha": {
+    "$date": "2025-11-20T17:00:00.000Z"
+  },
+  "estado": "presente",
+  "fechaCreacion": {
+    "$date": "2025-11-20T18:00:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "690bd04d106b6773039b1d97"
+  },
+  "estudianteId": {
+    "$oid": "665e7d5402a5a510c4f8d51d"
+  },
+  "claseId": {
+    "$oid": "665e7d80f4e1c500c4f8d709"
+  },
+  "fecha": {
+    "$date": "2025-11-20T17:00:00.000Z"
+  },
+  "estado": "presente",
+  "fechaCreacion": {
+    "$date": "2025-11-20T18:00:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "690bd04d106b6773039b1d98"
+  },
+  "estudianteId": {
+    "$oid": "665e7d5402a5a510c4f8d504"
+  },
+  "claseId": {
+    "$oid": "665e7d80f4e1c500c4f8d708"
+  },
+  "fecha": {
+    "$date": "2025-11-19T15:00:00.000Z"
+  },
+  "estado": "presente",
+  "fechaCreacion": {
+    "$date": "2025-11-19T16:00:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "690bd04d106b6773039b1d99"
+  },
+  "estudianteId": {
+    "$oid": "665e7d5402a5a510c4f8d51f"
+  },
+  "claseId": {
+    "$oid": "665e7d80f4e1c500c4f8d708"
+  },
+  "fecha": {
+    "$date": "2025-11-19T15:00:00.000Z"
+  },
+  "estado": "tarde",
+  "fechaCreacion": {
+    "$date": "2025-11-19T16:00:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "690bd04d106b6773039b1d9a"
+  },
+  "estudianteId": {
+    "$oid": "665e7d5402a5a510c4f8d508"
+  },
+  "claseId": {
+    "$oid": "665e7d80f4e1c500c4f8d70b"
+  },
+  "fecha": {
+    "$date": "2025-11-25T18:30:00.000Z"
+  },
+  "estado": "presente",
+  "fechaCreacion": {
+    "$date": "2025-11-25T19:30:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "690bd04d106b6773039b1d9b"
+  },
+  "estudianteId": {
+    "$oid": "665e7d5402a5a510c4f8d50c"
+  },
+  "claseId": {
+    "$oid": "665e7d80f4e1c500c4f8d70b"
+  },
+  "fecha": {
+    "$date": "2025-11-25T18:30:00.000Z"
+  },
+  "estado": "ausente",
+  "fechaCreacion": {
+    "$date": "2025-11-25T19:30:00.000Z"
+  }
+}]

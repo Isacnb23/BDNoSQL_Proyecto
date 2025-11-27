@@ -1,0 +1,225 @@
+[{
+  "_id": {
+    "$oid": "690bc34a106b6773039b1ce8"
+  },
+  "nombre": "Administrador",
+  "permisos": [
+    "GestionarUsuarios",
+    "GestionarCursos",
+    "GestionarPagos",
+    "ReportesFinancieros",
+    "ConfiguracionSistema"
+  ],
+  "fechaCreacion": {
+    "$date": "2025-11-05T21:36:10.044Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "690bc34a106b6773039b1ce9"
+  },
+  "nombre": "Profesor",
+  "permisos": [
+    "VerCursosAsignados",
+    "GestionarClases",
+    "SubirNotas",
+    "GestionarMaterial",
+    "AccesoAulasVirtuales"
+  ],
+  "fechaCreacion": {
+    "$date": "2025-11-05T21:36:10.044Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "690bc34a106b6773039b1cea"
+  },
+  "nombre": "Estudiante",
+  "permisos": [
+    "InscribirseCursos",
+    "VerHorario",
+    "AccesoAulasVirtuales",
+    "DescargarMaterial",
+    "VerNotas"
+  ],
+  "fechaCreacion": {
+    "$date": "2025-11-05T21:36:10.044Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "690bc34a106b6773039b1ceb"
+  },
+  "nombre": "Secretario(a)",
+  "permisos": [
+    "RegistrarInscripciones",
+    "GestionarPagos",
+    "AtencionCliente",
+    "ProgramarClases",
+    "GestionarSedes"
+  ],
+  "fechaCreacion": {
+    "$date": "2025-11-05T21:36:10.044Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "690bc34a106b6773039b1cec"
+  },
+  "nombre": "Coordinador Académico",
+  "permisos": [
+    "AsignarProfesores",
+    "CrearNiveles",
+    "SupervisarClases",
+    "GestionarEvaluaciones",
+    "AprobarContenido"
+  ],
+  "fechaCreacion": {
+    "$date": "2025-11-05T21:36:10.044Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "690bc34a106b6773039b1ced"
+  },
+  "nombre": "Soporte Técnico",
+  "permisos": [
+    "GestionarPlataformaOnline",
+    "RestablecerContraseñas",
+    "MantenimientoEquipos",
+    "ReportarErrores"
+  ],
+  "fechaCreacion": {
+    "$date": "2025-11-05T21:36:10.044Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "690bc34a106b6773039b1cee"
+  },
+  "nombre": "Profesor Auxiliar",
+  "permisos": [
+    "AsistirClases",
+    "DarTutorias",
+    "CorregirTrabajos",
+    "AccesoMateriales"
+  ],
+  "fechaCreacion": {
+    "$date": "2025-11-05T21:36:10.044Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "690bc34a106b6773039b1cef"
+  },
+  "nombre": "Director(a) de Sede",
+  "permisos": [
+    "GestionarPersonalLocal",
+    "ControlPresupuestoSede",
+    "SupervisarOperaciones",
+    "ReportesSede"
+  ],
+  "fechaCreacion": {
+    "$date": "2025-11-05T21:36:10.044Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "690bc34a106b6773039b1cf0"
+  },
+  "nombre": "Profesor de Conversación",
+  "permisos": [
+    "ImpartirSesionesConversacion",
+    "EvaluarFluidez",
+    "CrearDinamicas"
+  ],
+  "fechaCreacion": {
+    "$date": "2025-11-05T21:36:10.044Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "690bc34a106b6773039b1cf1"
+  },
+  "nombre": "Asesor de Ventas",
+  "permisos": [
+    "RegistrarProspectos",
+    "VerDisponibilidadCursos",
+    "GestionarDescuentos",
+    "SeguimientoClientes"
+  ],
+  "fechaCreacion": {
+    "$date": "2025-11-05T21:36:10.044Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "690bc34a106b6773039b1cf2"
+  },
+  "nombre": "Contador(a)",
+  "permisos": [
+    "ProcesarNomina",
+    "RegistrarFacturas",
+    "GenerarEstadosCuenta",
+    "ConciliacionesBancarias"
+  ],
+  "fechaCreacion": {
+    "$date": "2025-11-05T21:36:10.044Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "690bc34a106b6773039b1cf3"
+  },
+  "nombre": "Becario(a) Administrativo",
+  "permisos": [
+    "ArchivoDocumentos",
+    "AsistenciaSecretaria",
+    "LogisticaEventos"
+  ],
+  "fechaCreacion": {
+    "$date": "2025-11-05T21:36:10.044Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "690bc34a106b6773039b1cf4"
+  },
+  "nombre": "Diseñador Gráfico",
+  "permisos": [
+    "CrearMaterialPromocional",
+    "GestionarIdentidadVisual",
+    "DiseñarCertificados"
+  ],
+  "fechaCreacion": {
+    "$date": "2025-11-05T21:36:10.044Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "690bc34a106b6773039b1cf5"
+  },
+  "nombre": "Bibliotecario(a)",
+  "permisos": [
+    "GestionarInventarioLibros",
+    "ControlPrestamos",
+    "ClasificarRecursosDigitales"
+  ],
+  "fechaCreacion": {
+    "$date": "2025-11-05T21:36:10.044Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "690bc34a106b6773039b1cf6"
+  },
+  "nombre": "Tutor Online",
+  "permisos": [
+    "SesionesIndividualesOnline",
+    "SeguimientoProgresoEstudiante",
+    "ResponderDudasPlataforma"
+  ],
+  "fechaCreacion": {
+    "$date": "2025-11-05T21:36:10.044Z"
+  }
+}]

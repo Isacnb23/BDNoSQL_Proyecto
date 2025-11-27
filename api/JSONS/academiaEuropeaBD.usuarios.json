@@ -1,0 +1,195 @@
+[{
+  "_id": {
+    "$oid": "665e7d5402a5a510c4f8d501"
+  },
+  "nombre": "Ricardo Administrador",
+  "email": "ricardo.admin@aevirtual.com",
+  "password": "hashed_admin_pass123",
+  "estado": "activo",
+  "fechaCreacion": {
+    "$date": "2017-01-01T00:00:00.000Z"
+  },
+  "nota_rol": "Administrador"
+},
+{
+  "_id": {
+    "$oid": "665e7d5402a5a510c4f8d502"
+  },
+  "nombre": "Ana García Montes",
+  "email": "ana.garcia@aevirtual.com",
+  "password": "hashed_prof_pass123",
+  "estado": "activo",
+  "fechaCreacion": {
+    "$date": "2020-05-10T00:00:00.000Z"
+  },
+  "nota_rol": "Profesor"
+},
+{
+  "_id": {
+    "$oid": "665e7d5402a5a510c4f8d503"
+  },
+  "nombre": "David Jiménez Ruiz",
+  "email": "david.jimenez@aevirtual.com",
+  "password": "hashed_prof_pass123",
+  "estado": "activo",
+  "fechaCreacion": {
+    "$date": "2021-08-22T00:00:00.000Z"
+  },
+  "nota_rol": "Profesor"
+},
+{
+  "_id": {
+    "$oid": "665e7d5402a5a510c4f8d504"
+  },
+  "nombre": "Sofía Hernández Cruz",
+  "email": "sofia.hdez@mail.com",
+  "password": "hashed_stud_pass123",
+  "estado": "activo",
+  "fechaCreacion": {
+    "$date": "2024-01-15T00:00:00.000Z"
+  },
+  "nota_rol": "Estudiante"
+},
+{
+  "_id": {
+    "$oid": "665e7d5402a5a510c4f8d505"
+  },
+  "nombre": "Jorge Luis Pérez",
+  "email": "jorge.perez@mail.com",
+  "password": "hashed_stud_pass123",
+  "estado": "activo",
+  "fechaCreacion": {
+    "$date": "2024-03-01T00:00:00.000Z"
+  },
+  "nota_rol": "Estudiante"
+},
+{
+  "_id": {
+    "$oid": "665e7d5402a5a510c4f8d506"
+  },
+  "nombre": "Elena Vásquez Torres",
+  "email": "elena.vasquez@aevirtual.com",
+  "password": "hashed_sec_pass123",
+  "estado": "activo",
+  "fechaCreacion": {
+    "$date": "2022-09-05T00:00:00.000Z"
+  },
+  "nota_rol": "Secretario(a)"
+},
+{
+  "_id": {
+    "$oid": "665e7d5402a5a510c4f8d507"
+  },
+  "nombre": "Manuel Torres López",
+  "email": "manuel.coord@aevirtual.com",
+  "password": "hashed_coord_pass123",
+  "estado": "activo",
+  "fechaCreacion": {
+    "$date": "2018-11-30T00:00:00.000Z"
+  },
+  "nota_rol": "Coordinador Académico"
+},
+{
+  "_id": {
+    "$oid": "665e7d5402a5a510c4f8d508"
+  },
+  "nombre": "Carla Soto Mena",
+  "email": "carla.soto@mail.com",
+  "password": "hashed_stud_pass123",
+  "estado": "inactivo",
+  "fechaCreacion": {
+    "$date": "2023-10-10T00:00:00.000Z"
+  },
+  "nota_rol": "Estudiante"
+},
+{
+  "_id": {
+    "$oid": "665e7d5402a5a510c4f8d509"
+  },
+  "nombre": "Ethan Miller (Conversación)",
+  "email": "ethan.miller@aevirtual.com",
+  "password": "hashed_prof_pass123",
+  "estado": "activo",
+  "fechaCreacion": {
+    "$date": "2023-01-01T00:00:00.000Z"
+  },
+  "nota_rol": "Profesor de Conversación"
+},
+{
+  "_id": {
+    "$oid": "665e7d5402a5a510c4f8d50a"
+  },
+  "nombre": "María Isabel Gómez",
+  "email": "maria.gomez@mail.com",
+  "password": "hashed_stud_pass123",
+  "estado": "activo",
+  "fechaCreacion": {
+    "$date": "2024-02-20T00:00:00.000Z"
+  },
+  "nota_rol": "Estudiante"
+},
+{
+  "_id": {
+    "$oid": "665e7d5402a5a510c4f8d50b"
+  },
+  "nombre": "Andrés Felipe Ríos",
+  "email": "andres.rios@mail.com",
+  "password": "hashed_stud_pass123",
+  "estado": "suspendido",
+  "fechaCreacion": {
+    "$date": "2023-08-01T00:00:00.000Z"
+  },
+  "nota_rol": "Estudiante"
+},
+{
+  "_id": {
+    "$oid": "665e7d5402a5a510c4f8d50c"
+  },
+  "nombre": "Laura Patricia Rojas",
+  "email": "laura.ventas@aevirtual.com",
+  "password": "hashed_sales_pass123",
+  "estado": "activo",
+  "fechaCreacion": {
+    "$date": "2022-04-15T00:00:00.000Z"
+  },
+  "nota_rol": "Asesor de Ventas"
+},
+{
+  "_id": {
+    "$oid": "665e7d5402a5a510c4f8d50d"
+  },
+  "nombre": "Roberto Castro",
+  "email": "roberto.castro@mail.com",
+  "password": "hashed_stud_pass123",
+  "estado": "activo",
+  "fechaCreacion": {
+    "$date": "2024-04-01T00:00:00.000Z"
+  },
+  "nota_rol": "Estudiante"
+},
+{
+  "_id": {
+    "$oid": "665e7d5402a5a510c4f8d50e"
+  },
+  "nombre": "Lin Wei (Mandarín)",
+  "email": "lin.wei@aevirtual.com",
+  "password": "hashed_prof_pass123",
+  "estado": "activo",
+  "fechaCreacion": {
+    "$date": "2021-03-03T00:00:00.000Z"
+  },
+  "nota_rol": "Profesor"
+},
+{
+  "_id": {
+    "$oid": "665e7d5402a5a510c4f8d50f"
+  },
+  "nombre": "Javier Morales",
+  "email": "javier.director@aevirtual.com",
+  "password": "hashed_dir_pass123",
+  "estado": "activo",
+  "fechaCreacion": {
+    "$date": "2019-06-20T00:00:00.000Z"
+  },
+  "nota_rol": "Director(a) de Sede"
+}]

@@ -1,0 +1,268 @@
+[{
+  "_id": {
+    "$oid": "690bceaa106b6773039b1d51"
+  },
+  "nombre": "Aula Magna - Piso 5",
+  "capacidad": 35,
+  "sedeId": {
+    "$oid": "665e7d4323d9b400a4f5f501"
+  },
+  "equipamiento": [
+    "Proyector 4K",
+    "Sistema de Audio",
+    "Pizarrón Interactivo",
+    "Micrófonos"
+  ],
+  "fechaCreacion": {
+    "$date": "2018-02-01T00:00:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "690bceaa106b6773039b1d52"
+  },
+  "nombre": "Aula 101 - Inglés",
+  "capacidad": 18,
+  "sedeId": {
+    "$oid": "665e7d4323d9b400a4f5f501"
+  },
+  "equipamiento": [
+    "Pizarra blanca",
+    "PC docente",
+    "Conexión a Internet de alta velocidad"
+  ],
+  "fechaCreacion": {
+    "$date": "2018-02-01T00:00:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "690bceaa106b6773039b1d53"
+  },
+  "nombre": "Laboratorio de Idiomas",
+  "capacidad": 20,
+  "sedeId": {
+    "$oid": "665e7d4323d9b400a4f5f501"
+  },
+  "equipamiento": [
+    "30 computadoras",
+    "Software de pronunciación",
+    "Audífonos"
+  ],
+  "fechaCreacion": {
+    "$date": "2019-06-10T00:00:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "690bceaa106b6773039b1d54"
+  },
+  "nombre": "Sala Zoom-Premium-1",
+  "capacidad": 50,
+  "sedeId": {
+    "$oid": "665e7d4323d9b400a4f5f503"
+  },
+  "equipamiento": [
+    "Plataforma Zoom Pro",
+    "Grabación HD",
+    "Salas de subgrupo ilimitadas"
+  ],
+  "fechaCreacion": {
+    "$date": "2017-08-01T00:00:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "690bceaa106b6773039b1d55"
+  },
+  "nombre": "Sala Moodle-Clásica",
+  "capacidad": 25,
+  "sedeId": {
+    "$oid": "665e7d4323d9b400a4f5f503"
+  },
+  "equipamiento": [
+    "Plataforma Moodle",
+    "Chat en vivo",
+    "Foros de discusión"
+  ],
+  "fechaCreacion": {
+    "$date": "2017-08-01T00:00:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "690bceaa106b6773039b1d56"
+  },
+  "nombre": "Webinar - Español Negocios",
+  "capacidad": 100,
+  "sedeId": {
+    "$oid": "665e7d4323d9b400a4f5f503"
+  },
+  "equipamiento": [
+    "Webex",
+    "Servidor de streaming",
+    "Soporte 24/7"
+  ],
+  "fechaCreacion": {
+    "$date": "2021-01-20T00:00:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "690bceaa106b6773039b1d57"
+  },
+  "nombre": "Sala 203 - Conversación",
+  "capacidad": 12,
+  "sedeId": {
+    "$oid": "665e7d4323d9b400a4f5f504"
+  },
+  "equipamiento": [
+    "Mesa redonda",
+    "Pizarra blanca",
+    "Cafetera"
+  ],
+  "fechaCreacion": {
+    "$date": "2021-04-10T00:00:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "690bceaa106b6773039b1d58"
+  },
+  "nombre": "Aula 204 - Francés",
+  "capacidad": 16,
+  "sedeId": {
+    "$oid": "665e7d4323d9b400a4f5f504"
+  },
+  "equipamiento": [
+    "Proyector",
+    "Pizarra",
+    "Equipo de sonido"
+  ],
+  "fechaCreacion": {
+    "$date": "2021-04-10T00:00:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "690bceaa106b6773039b1d59"
+  },
+  "nombre": "Aula B1 - Alemán",
+  "capacidad": 15,
+  "sedeId": {
+    "$oid": "665e7d4323d9b400a4f5f505"
+  },
+  "equipamiento": [
+    "Pizarra",
+    "Aire acondicionado",
+    "Biblioteca pequeña de consulta"
+  ],
+  "fechaCreacion": {
+    "$date": "2020-12-01T00:00:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "690bceaa106b6773039b1d5a"
+  },
+  "nombre": "Aula B2 - Italiano",
+  "capacidad": 18,
+  "sedeId": {
+    "$oid": "665e7d4323d9b400a4f5f505"
+  },
+  "equipamiento": [
+    "Proyector HD",
+    "Sillas ergonómicas"
+  ],
+  "fechaCreacion": {
+    "$date": "2020-12-01T00:00:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "690bceaa106b6773039b1d5b"
+  },
+  "nombre": "Aula 301 - Coreano/Japonés",
+  "capacidad": 22,
+  "sedeId": {
+    "$oid": "665e7d4323d9b400a4f5f506"
+  },
+  "equipamiento": [
+    "Proyector 4K",
+    "Acceso a teclado multi-idioma",
+    "Internet dedicado"
+  ],
+  "fechaCreacion": {
+    "$date": "2022-07-15T00:00:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "690bceaa106b6773039b1d5c"
+  },
+  "nombre": "Sala de Tutorías",
+  "capacidad": 6,
+  "sedeId": {
+    "$oid": "665e7d4323d9b400a4f5f506"
+  },
+  "equipamiento": [
+    "Mesa de reuniones",
+    "Pantalla de 32 pulgadas"
+  ],
+  "fechaCreacion": {
+    "$date": "2023-01-10T00:00:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "690bceaa106b6773039b1d5d"
+  },
+  "nombre": "Plataforma de Intercambio",
+  "capacidad": 80,
+  "sedeId": {
+    "$oid": "665e7d4323d9b400a4f5f503"
+  },
+  "equipamiento": [
+    "Discord server",
+    "Canales de voz y texto",
+    "Monitores activos"
+  ],
+  "fechaCreacion": {
+    "$date": "2022-05-01T00:00:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "690bceaa106b6773039b1d5e"
+  },
+  "nombre": "Aula Intensiva - Ruso",
+  "capacidad": 10,
+  "sedeId": {
+    "$oid": "665e7d4323d9b400a4f5f503"
+  },
+  "equipamiento": [
+    "Zoom Business",
+    "Pizarrón digital avanzado"
+  ],
+  "fechaCreacion": {
+    "$date": "2024-01-01T00:00:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "690bceaa106b6773039b1d5f"
+  },
+  "nombre": "Aula 102 - Portugués",
+  "capacidad": 18,
+  "sedeId": {
+    "$oid": "665e7d4323d9b400a4f5f501"
+  },
+  "equipamiento": [
+    "Pizarra blanca",
+    "PC docente",
+    "Conexión a Internet de alta velocidad"
+  ],
+  "fechaCreacion": {
+    "$date": "2023-03-20T00:00:00.000Z"
+  }
+}]

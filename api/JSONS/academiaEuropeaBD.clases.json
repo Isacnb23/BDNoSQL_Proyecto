@@ -1,0 +1,330 @@
+[{
+  "_id": {
+    "$oid": "690bcf59106b6773039b1d60"
+  },
+  "cursoId": {
+    "$oid": "665e7d60f4e1c500c4f8d601"
+  },
+  "fecha": {
+    "$date": "2025-11-10T15:00:00.000Z"
+  },
+  "tema": "Introducción y Saludos Formales",
+  "descripcion": "Presentación del curso, fonética básica y uso del verbo 'To Be'.",
+  "profesorId": {
+    "$oid": "665e7d5402a5a510c4f8d502"
+  },
+  "fechaCreacion": {
+    "$date": "2025-11-05T22:27:37.973Z"
+  },
+  "nota_aula_asociada": {
+    "$oid": "665e7d50123f1010a0a0a004"
+  }
+},
+{
+  "_id": {
+    "$oid": "690bcf59106b6773039b1d61"
+  },
+  "cursoId": {
+    "$oid": "665e7d60f4e1c500c4f8d601"
+  },
+  "fecha": {
+    "$date": "2025-11-12T15:00:00.000Z"
+  },
+  "tema": "Artículos y Números",
+  "descripcion": "Uso de 'a', 'an', 'the' y conteo hasta 100.",
+  "profesorId": {
+    "$oid": "665e7d5402a5a510c4f8d502"
+  },
+  "fechaCreacion": {
+    "$date": "2025-11-05T22:27:37.973Z"
+  },
+  "nota_aula_asociada": {
+    "$oid": "665e7d50123f1010a0a0a004"
+  }
+},
+{
+  "_id": {
+    "$oid": "690bcf59106b6773039b1d62"
+  },
+  "cursoId": {
+    "$oid": "665e7d60f4e1c500c4f8d601"
+  },
+  "fecha": {
+    "$date": "2025-11-14T15:00:00.000Z"
+  },
+  "tema": "Preguntas W-H",
+  "descripcion": "Práctica de 'What, Where, When, Who' en contexto de viaje.",
+  "profesorId": {
+    "$oid": "665e7d5402a5a510c4f8d502"
+  },
+  "fechaCreacion": {
+    "$date": "2025-11-05T22:27:37.973Z"
+  },
+  "nota_aula_asociada": {
+    "$oid": "665e7d50123f1010a0a0a004"
+  }
+},
+{
+  "_id": {
+    "$oid": "690bcf59106b6773039b1d63"
+  },
+  "cursoId": {
+    "$oid": "665e7d60f4e1c500c4f8d602"
+  },
+  "fecha": {
+    "$date": "2025-11-11T19:30:00.000Z"
+  },
+  "tema": "Debate: Inteligencia Artificial",
+  "descripcion": "Discusión abierta sobre ética y futuro de la IA, uso de *phrasal verbs* complejos.",
+  "profesorId": {
+    "$oid": "665e7d5402a5a510c4f8d509"
+  },
+  "fechaCreacion": {
+    "$date": "2025-11-05T22:27:37.973Z"
+  },
+  "nota_aula_asociada": {
+    "$oid": "665e7d50123f1010a0a0a004"
+  }
+},
+{
+  "_id": {
+    "$oid": "690bcf59106b6773039b1d64"
+  },
+  "cursoId": {
+    "$oid": "665e7d60f4e1c500c4f8d602"
+  },
+  "fecha": {
+    "$date": "2025-11-13T19:30:00.000Z"
+  },
+  "tema": "Presentaciones Persuasivas",
+  "descripcion": "Práctica de cómo estructurar un discurso y usar lenguaje retórico.",
+  "profesorId": {
+    "$oid": "665e7d5402a5a510c4f8d509"
+  },
+  "fechaCreacion": {
+    "$date": "2025-11-05T22:27:37.973Z"
+  },
+  "nota_aula_asociada": {
+    "$oid": "665e7d50123f1010a0a0a004"
+  }
+},
+{
+  "_id": {
+    "$oid": "690bcf59106b6773039b1d65"
+  },
+  "cursoId": {
+    "$oid": "665e7d60f4e1c500c4f8d605"
+  },
+  "fecha": {
+    "$date": "2025-11-15T10:00:00.000Z"
+  },
+  "tema": "La cuisine française",
+  "descripcion": "Vocabulario de comida y práctica del pasado compuesto (Passé Composé).",
+  "profesorId": {
+    "$oid": "665e7d5402a5a510c4f8d503"
+  },
+  "fechaCreacion": {
+    "$date": "2025-11-05T22:27:37.973Z"
+  },
+  "nota_aula_asociada": {
+    "$oid": "665e7d50123f1010a0a0a004"
+  }
+},
+{
+  "_id": {
+    "$oid": "690bcf59106b6773039b1d66"
+  },
+  "cursoId": {
+    "$oid": "665e7d60f4e1c500c4f8d605"
+  },
+  "fecha": {
+    "$date": "2025-11-17T10:00:00.000Z"
+  },
+  "tema": "Indiquer le chemin",
+  "descripcion": "Dar y entender direcciones en la ciudad. Preposiciones de lugar.",
+  "profesorId": {
+    "$oid": "665e7d5402a5a510c4f8d503"
+  },
+  "fechaCreacion": {
+    "$date": "2025-11-05T22:27:37.973Z"
+  },
+  "nota_aula_asociada": {
+    "$oid": "665e7d50123f1010a0a0a004"
+  }
+},
+{
+  "_id": {
+    "$oid": "690bcf59106b6773039b1d67"
+  },
+  "cursoId": {
+    "$oid": "665e7d60f4e1c500c4f8d601"
+  },
+  "fecha": {
+    "$date": "2025-11-19T15:00:00.000Z"
+  },
+  "tema": "Posesivos y Adjetivos",
+  "descripcion": "Uso de 'My, Your, His, Her' y descripción de personas.",
+  "profesorId": {
+    "$oid": "665e7d5402a5a510c4f8d502"
+  },
+  "fechaCreacion": {
+    "$date": "2025-11-05T22:27:37.973Z"
+  },
+  "nota_aula_asociada": {
+    "$oid": "665e7d50123f1010a0a0a002"
+  }
+},
+{
+  "_id": {
+    "$oid": "690bcf59106b6773039b1d68"
+  },
+  "cursoId": {
+    "$oid": "665e7d60f4e1c500c4f8d607"
+  },
+  "fecha": {
+    "$date": "2025-11-20T17:00:00.000Z"
+  },
+  "tema": "Los Tonos y Pinyin",
+  "descripcion": "Práctica intensiva de los cuatro tonos del mandarín y el sistema Pinyin.",
+  "profesorId": {
+    "$oid": "665e7d5402a5a510c4f8d50e"
+  },
+  "fechaCreacion": {
+    "$date": "2025-11-05T22:27:37.973Z"
+  },
+  "nota_aula_asociada": {
+    "$oid": "665e7d50123f1010a0a0a002"
+  }
+},
+{
+  "_id": {
+    "$oid": "690bcf59106b6773039b1d69"
+  },
+  "cursoId": {
+    "$oid": "665e7d60f4e1c500c4f8d607"
+  },
+  "fecha": {
+    "$date": "2025-11-22T17:00:00.000Z"
+  },
+  "tema": "Primeros Caracteres (Números)",
+  "descripcion": "Escritura de los caracteres básicos para los números 1 a 10.",
+  "profesorId": {
+    "$oid": "665e7d5402a5a510c4f8d50e"
+  },
+  "fechaCreacion": {
+    "$date": "2025-11-05T22:27:37.973Z"
+  },
+  "nota_aula_asociada": {
+    "$oid": "665e7d50123f1010a0a0a002"
+  }
+},
+{
+  "_id": {
+    "$oid": "690bcf59106b6773039b1d6a"
+  },
+  "cursoId": {
+    "$oid": "665e7d60f4e1c500c4f8d609"
+  },
+  "fecha": {
+    "$date": "2025-11-25T18:30:00.000Z"
+  },
+  "tema": "En el restaurante",
+  "descripcion": "Cómo ordenar comida, pedir la cuenta y vocabulario de platillos típicos.",
+  "profesorId": {
+    "$oid": "665e7d5402a5a510c4f8d510"
+  },
+  "fechaCreacion": {
+    "$date": "2025-11-05T22:27:37.973Z"
+  },
+  "nota_aula_asociada": {
+    "$oid": "665e7d50123f1010a0a0a002"
+  }
+},
+{
+  "_id": {
+    "$oid": "690bcf59106b6773039b1d6b"
+  },
+  "cursoId": {
+    "$oid": "665e7d60f4e1c500c4f8d609"
+  },
+  "fecha": {
+    "$date": "2025-11-27T18:30:00.000Z"
+  },
+  "tema": "Transporte y Hotel",
+  "descripcion": "Reservas, pedir un taxi y vocabulario de estaciones.",
+  "profesorId": {
+    "$oid": "665e7d5402a5a510c4f8d510"
+  },
+  "fechaCreacion": {
+    "$date": "2025-11-05T22:27:37.973Z"
+  },
+  "nota_aula_asociada": {
+    "$oid": "665e7d50123f1010a0a0a002"
+  }
+},
+{
+  "_id": {
+    "$oid": "690bcf59106b6773039b1d6c"
+  },
+  "cursoId": {
+    "$oid": "665e7d60f4e1c500c4f8d602"
+  },
+  "fecha": {
+    "$date": "2025-11-29T19:30:00.000Z"
+  },
+  "tema": "Simulación de Entrevistas Laborales",
+  "descripcion": "Práctica de respuestas a preguntas de nivel ejecutivo.",
+  "profesorId": {
+    "$oid": "665e7d5402a5a510c4f8d509"
+  },
+  "fechaCreacion": {
+    "$date": "2025-11-05T22:27:37.973Z"
+  },
+  "nota_aula_asociada": {
+    "$oid": "665e7d50123f1010a0a0a002"
+  }
+},
+{
+  "_id": {
+    "$oid": "690bcf59106b6773039b1d6d"
+  },
+  "cursoId": {
+    "$oid": "665e7d60f4e1c500c4f8d60a"
+  },
+  "fecha": {
+    "$date": "2025-12-02T16:00:00.000Z"
+  },
+  "tema": "El uso del Subjuntivo - Parte I",
+  "descripcion": "Introducción a las cláusulas subordinadas que requieren subjuntivo.",
+  "profesorId": {
+    "$oid": "665e7d5402a5a510c4f8d517"
+  },
+  "fechaCreacion": {
+    "$date": "2025-11-05T22:27:37.973Z"
+  },
+  "nota_aula_asociada": {
+    "$oid": "665e7d50123f1010a0a0a002"
+  }
+},
+{
+  "_id": {
+    "$oid": "690bcf59106b6773039b1d6e"
+  },
+  "cursoId": {
+    "$oid": "665e7d60f4e1c500c4f8d60a"
+  },
+  "fecha": {
+    "$date": "2025-12-04T16:00:00.000Z"
+  },
+  "tema": "Perífrasis Verbales",
+  "descripcion": "Análisis de 'estar + gerundio', 'ir a + infinitivo' y otras construcciones.",
+  "profesorId": {
+    "$oid": "665e7d5402a5a510c4f8d517"
+  },
+  "fechaCreacion": {
+    "$date": "2025-11-05T22:27:37.973Z"
+  },
+  "nota_aula_asociada": {
+    "$oid": "665e7d50123f1010a0a0a002"
+  }
+}]

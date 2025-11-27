@@ -1,0 +1,285 @@
+[{
+  "_id": {
+    "$oid": "690bd22b106b6773039b1dd8"
+  },
+  "estudianteId": {
+    "$oid": "665e7d5402a5a510c4f8d50b"
+  },
+  "cursoId": {
+    "$oid": "665e7d60f4e1c500c4f8d605"
+  },
+  "fechaEmision": {
+    "$date": "2024-03-30T00:00:00.000Z"
+  },
+  "codigo": "FR-A2-2024-0012",
+  "notaFinal": 88,
+  "fechaCreacion": {
+    "$date": "2024-03-30T00:00:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "690bd22b106b6773039b1dd9"
+  },
+  "estudianteId": {
+    "$oid": "665e7d5402a5a510c4f8d508"
+  },
+  "cursoId": {
+    "$oid": "665e7d60f4e1c500c4f8d609"
+  },
+  "fechaEmision": {
+    "$date": "2024-07-20T00:00:00.000Z"
+  },
+  "codigo": "IT-A2-2024-0045",
+  "notaFinal": 95,
+  "fechaCreacion": {
+    "$date": "2024-07-20T00:00:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "690bd22b106b6773039b1dda"
+  },
+  "estudianteId": {
+    "$oid": "665e7d5402a5a510c4f8d51d"
+  },
+  "cursoId": {
+    "$oid": "665e7d60f4e1c500c4f8d607"
+  },
+  "fechaEmision": {
+    "$date": "2024-06-15T00:00:00.000Z"
+  },
+  "codigo": "ZH-A1-2024-0021",
+  "notaFinal": 78,
+  "fechaCreacion": {
+    "$date": "2024-06-15T00:00:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "690bd22b106b6773039b1ddb"
+  },
+  "estudianteId": {
+    "$oid": "665e7d5402a5a510c4f8d51c"
+  },
+  "cursoId": {
+    "$oid": "665e7d60f4e1c500c4f8d606"
+  },
+  "fechaEmision": {
+    "$date": "2024-06-01T00:00:00.000Z"
+  },
+  "codigo": "FR-B2-2024-0010",
+  "notaFinal": 84,
+  "fechaCreacion": {
+    "$date": "2024-06-01T00:00:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "690bd22b106b6773039b1ddc"
+  },
+  "estudianteId": {
+    "$oid": "665e7d5402a5a510c4f8d520"
+  },
+  "cursoId": {
+    "$oid": "665e7d60f4e1c500c4f8d604"
+  },
+  "fechaEmision": {
+    "$date": "2024-08-05T00:00:00.000Z"
+  },
+  "codigo": "EN-BUS-2024-0033",
+  "notaFinal": 75,
+  "fechaCreacion": {
+    "$date": "2024-08-05T00:00:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "690bd22b106b6773039b1ddd"
+  },
+  "estudianteId": {
+    "$oid": "665e7d5402a5a510c4f8d504"
+  },
+  "cursoId": {
+    "$oid": "665e7d60f4e1c500c4f8d601"
+  },
+  "fechaEmision": {
+    "$date": "2023-12-15T00:00:00.000Z"
+  },
+  "codigo": "EN-A1-2023-0105",
+  "notaFinal": 92,
+  "fechaCreacion": {
+    "$date": "2023-12-15T00:00:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "690bd22b106b6773039b1dde"
+  },
+  "estudianteId": {
+    "$oid": "665e7d5402a5a510c4f8d50d"
+  },
+  "cursoId": {
+    "$oid": "665e7d60f4e1c500c4f8d603"
+  },
+  "fechaEmision": {
+    "$date": "2024-02-10T00:00:00.000Z"
+  },
+  "codigo": "EN-TOF-2024-0008",
+  "notaFinal": 80,
+  "fechaCreacion": {
+    "$date": "2024-02-10T00:00:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "690bd22b106b6773039b1ddf"
+  },
+  "estudianteId": {
+    "$oid": "665e7d5402a5a510c4f8d51a"
+  },
+  "cursoId": {
+    "$oid": "665e7d60f4e1c500c4f8d60f"
+  },
+  "fechaEmision": {
+    "$date": "2023-05-20T00:00:00.000Z"
+  },
+  "codigo": "DE-B2-2023-0005",
+  "notaFinal": 71,
+  "fechaCreacion": {
+    "$date": "2023-05-20T00:00:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "690bd22b106b6773039b1de0"
+  },
+  "estudianteId": {
+    "$oid": "665e7d5402a5a510c4f8d50a"
+  },
+  "cursoId": {
+    "$oid": "665e7d60f4e1c500c4f8d608"
+  },
+  "fechaEmision": {
+    "$date": "2024-09-30T00:00:00.000Z"
+  },
+  "codigo": "DE-B1-2024-0040",
+  "notaFinal": 86,
+  "fechaCreacion": {
+    "$date": "2024-09-30T00:00:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "690bd22b106b6773039b1de1"
+  },
+  "estudianteId": {
+    "$oid": "665e7d5402a5a510c4f8d522"
+  },
+  "cursoId": {
+    "$oid": "665e7d60f4e1c500c4f8d601"
+  },
+  "fechaEmision": {
+    "$date": "2023-10-01T00:00:00.000Z"
+  },
+  "codigo": "EN-A1-2023-0112",
+  "notaFinal": 79,
+  "fechaCreacion": {
+    "$date": "2023-10-01T00:00:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "690bd22b106b6773039b1de2"
+  },
+  "estudianteId": {
+    "$oid": "665e7d5402a5a510c4f8d51e"
+  },
+  "cursoId": {
+    "$oid": "665e7d60f4e1c500c4f8d60a"
+  },
+  "fechaEmision": {
+    "$date": "2024-11-20T00:00:00.000Z"
+  },
+  "codigo": "ES-C1-2024-0001",
+  "notaFinal": 96,
+  "fechaCreacion": {
+    "$date": "2024-11-20T00:00:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "690bd22b106b6773039b1de3"
+  },
+  "estudianteId": {
+    "$oid": "665e7d5402a5a510c4f8d505"
+  },
+  "cursoId": {
+    "$oid": "665e7d60f4e1c500c4f8d60e"
+  },
+  "fechaEmision": {
+    "$date": "2025-01-15T00:00:00.000Z"
+  },
+  "codigo": "RU-C1-2025-0003",
+  "notaFinal": 81,
+  "fechaCreacion": {
+    "$date": "2025-01-15T00:00:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "690bd22b106b6773039b1de4"
+  },
+  "estudianteId": {
+    "$oid": "665e7d5402a5a510c4f8d50b"
+  },
+  "cursoId": {
+    "$oid": "665e7d60f4e1c500c4f8d60b"
+  },
+  "fechaEmision": {
+    "$date": "2025-03-01T00:00:00.000Z"
+  },
+  "codigo": "JP-A0-2025-0004",
+  "notaFinal": 90,
+  "fechaCreacion": {
+    "$date": "2025-03-01T00:00:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "690bd22b106b6773039b1de5"
+  },
+  "estudianteId": {
+    "$oid": "665e7d5402a5a510c4f8d523"
+  },
+  "cursoId": {
+    "$oid": "665e7d60f4e1c500c4f8d60d"
+  },
+  "fechaEmision": {
+    "$date": "2024-12-10T00:00:00.000Z"
+  },
+  "codigo": "KR-A2-2024-0015",
+  "notaFinal": 87,
+  "fechaCreacion": {
+    "$date": "2024-12-10T00:00:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "690bd22b106b6773039b1de6"
+  },
+  "estudianteId": {
+    "$oid": "665e7d5402a5a510c4f8d50e"
+  },
+  "cursoId": {
+    "$oid": "665e7d60f4e1c500c4f8d60c"
+  },
+  "fechaEmision": {
+    "$date": "2024-04-25T00:00:00.000Z"
+  },
+  "codigo": "PT-B1-2024-0018",
+  "notaFinal": 76,
+  "fechaCreacion": {
+    "$date": "2024-04-25T00:00:00.000Z"
+  }
+}]

@@ -1,0 +1,270 @@
+[{
+  "_id": {
+    "$oid": "690bcfaf106b6773039b1d6f"
+  },
+  "estudianteId": {
+    "$oid": "665e7d5402a5a510c4f8d504"
+  },
+  "cursoId": {
+    "$oid": "665e7d60f4e1c500c4f8d601"
+  },
+  "fechaInscripcion": {
+    "$date": "2025-10-25T00:00:00.000Z"
+  },
+  "estado": "activa",
+  "fechaCreacion": {
+    "$date": "2025-10-25T00:00:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "690bcfaf106b6773039b1d70"
+  },
+  "estudianteId": {
+    "$oid": "665e7d5402a5a510c4f8d505"
+  },
+  "cursoId": {
+    "$oid": "665e7d60f4e1c500c4f8d605"
+  },
+  "fechaInscripcion": {
+    "$date": "2025-09-10T00:00:00.000Z"
+  },
+  "estado": "activa",
+  "fechaCreacion": {
+    "$date": "2025-09-10T00:00:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "690bcfaf106b6773039b1d71"
+  },
+  "estudianteId": {
+    "$oid": "665e7d5402a5a510c4f8d50d"
+  },
+  "cursoId": {
+    "$oid": "665e7d60f4e1c500c4f8d602"
+  },
+  "fechaInscripcion": {
+    "$date": "2025-11-01T00:00:00.000Z"
+  },
+  "estado": "activa",
+  "fechaCreacion": {
+    "$date": "2025-11-01T00:00:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "690bcfaf106b6773039b1d72"
+  },
+  "estudianteId": {
+    "$oid": "665e7d5402a5a510c4f8d50a"
+  },
+  "cursoId": {
+    "$oid": "665e7d60f4e1c500c4f8d607"
+  },
+  "fechaInscripcion": {
+    "$date": "2025-10-05T00:00:00.000Z"
+  },
+  "estado": "activa",
+  "fechaCreacion": {
+    "$date": "2025-10-05T00:00:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "690bcfaf106b6773039b1d73"
+  },
+  "estudianteId": {
+    "$oid": "665e7d5402a5a510c4f8d51e"
+  },
+  "cursoId": {
+    "$oid": "665e7d60f4e1c500c4f8d60a"
+  },
+  "fechaInscripcion": {
+    "$date": "2025-08-01T00:00:00.000Z"
+  },
+  "estado": "activa",
+  "fechaCreacion": {
+    "$date": "2025-08-01T00:00:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "690bcfaf106b6773039b1d74"
+  },
+  "estudianteId": {
+    "$oid": "665e7d5402a5a510c4f8d51f"
+  },
+  "cursoId": {
+    "$oid": "665e7d60f4e1c500c4f8d601"
+  },
+  "fechaInscripcion": {
+    "$date": "2025-10-28T00:00:00.000Z"
+  },
+  "estado": "activa",
+  "fechaCreacion": {
+    "$date": "2025-10-28T00:00:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "690bcfaf106b6773039b1d75"
+  },
+  "estudianteId": {
+    "$oid": "665e7d5402a5a510c4f8d523"
+  },
+  "cursoId": {
+    "$oid": "665e7d60f4e1c500c4f8d602"
+  },
+  "fechaInscripcion": {
+    "$date": "2025-11-02T00:00:00.000Z"
+  },
+  "estado": "activa",
+  "fechaCreacion": {
+    "$date": "2025-11-02T00:00:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "690bcfaf106b6773039b1d76"
+  },
+  "estudianteId": {
+    "$oid": "665e7d5402a5a510c4f8d50b"
+  },
+  "cursoId": {
+    "$oid": "665e7d60f4e1c500c4f8d605"
+  },
+  "fechaInscripcion": {
+    "$date": "2024-01-10T00:00:00.000Z"
+  },
+  "estado": "finalizada",
+  "fechaCreacion": {
+    "$date": "2024-01-10T00:00:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "690bcfaf106b6773039b1d77"
+  },
+  "estudianteId": {
+    "$oid": "665e7d5402a5a510c4f8d508"
+  },
+  "cursoId": {
+    "$oid": "665e7d60f4e1c500c4f8d609"
+  },
+  "fechaInscripcion": {
+    "$date": "2024-05-15T00:00:00.000Z"
+  },
+  "estado": "finalizada",
+  "fechaCreacion": {
+    "$date": "2024-05-15T00:00:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "690bcfaf106b6773039b1d78"
+  },
+  "estudianteId": {
+    "$oid": "665e7d5402a5a510c4f8d51d"
+  },
+  "cursoId": {
+    "$oid": "665e7d60f4e1c500c4f8d607"
+  },
+  "fechaInscripcion": {
+    "$date": "2024-04-01T00:00:00.000Z"
+  },
+  "estado": "finalizada",
+  "fechaCreacion": {
+    "$date": "2024-04-01T00:00:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "690bcfaf106b6773039b1d79"
+  },
+  "estudianteId": {
+    "$oid": "665e7d5402a5a510c4f8d51c"
+  },
+  "cursoId": {
+    "$oid": "665e7d60f4e1c500c4f8d606"
+  },
+  "fechaInscripcion": {
+    "$date": "2024-03-20T00:00:00.000Z"
+  },
+  "estado": "finalizada",
+  "fechaCreacion": {
+    "$date": "2024-03-20T00:00:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "690bcfaf106b6773039b1d7a"
+  },
+  "estudianteId": {
+    "$oid": "665e7d5402a5a510c4f8d50b"
+  },
+  "cursoId": {
+    "$oid": "665e7d60f4e1c500c4f8d604"
+  },
+  "fechaInscripcion": {
+    "$date": "2025-07-01T00:00:00.000Z"
+  },
+  "estado": "cancelada",
+  "fechaCreacion": {
+    "$date": "2025-07-01T00:00:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "690bcfaf106b6773039b1d7b"
+  },
+  "estudianteId": {
+    "$oid": "665e7d5402a5a510c4f8d520"
+  },
+  "cursoId": {
+    "$oid": "665e7d60f4e1c500c4f8d608"
+  },
+  "fechaInscripcion": {
+    "$date": "2025-08-15T00:00:00.000Z"
+  },
+  "estado": "cancelada",
+  "fechaCreacion": {
+    "$date": "2025-08-15T00:00:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "690bcfaf106b6773039b1d7c"
+  },
+  "estudianteId": {
+    "$oid": "665e7d5402a5a510c4f8d522"
+  },
+  "cursoId": {
+    "$oid": "665e7d60f4e1c500c4f8d60b"
+  },
+  "fechaInscripcion": {
+    "$date": "2025-11-03T00:00:00.000Z"
+  },
+  "estado": "activa",
+  "fechaCreacion": {
+    "$date": "2025-11-03T00:00:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "690bcfaf106b6773039b1d7d"
+  },
+  "estudianteId": {
+    "$oid": "665e7d5402a5a510c4f8d521"
+  },
+  "cursoId": {
+    "$oid": "665e7d60f4e1c500c4f8d60e"
+  },
+  "fechaInscripcion": {
+    "$date": "2025-10-20T00:00:00.000Z"
+  },
+  "estado": "activa",
+  "fechaCreacion": {
+    "$date": "2025-10-20T00:00:00.000Z"
+  }
+}]
