@@ -31,12 +31,6 @@ body {
     font-weight: 600;
 }
 
-h2.bold {
-    background: linear-gradient(135deg, #0039a6, #00c6ff);
-    font-size: 2.5rem;
-    padding-bottom: 15px;
-}
-
 .card {
     transition: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);
     cursor: pointer;
@@ -44,19 +38,9 @@ h2.bold {
     background: #fff;
 }
 
-.card::before {
-    content: '';
-    position: absolute;
-    top: 0;
-    left: 0;
-    right: 0;
-    height: 4px;
-    background: linear-gradient(90deg, #0039a6, #006bff, #00c6ff);
-}
-
 .card:hover {
     transform: translateY(-12px);
-    box-shadow: 0 20px 40px rgba(0, 57, 166, 0.2) !important;
+    box-shadow: 0 20px 40px rgba(0, 57, 166, 0.2)
 }
 
 .card i {
@@ -65,4 +49,120 @@ h2.bold {
 
 .card:hover i {
     transform: scale(1.2) rotate(5deg);
+}
+
+
+thead {
+    background: linear-gradient(90deg, #0039a6, #006bff, #00c6ff);
+    color: white;
+}
+
+tbody td {
+    padding: 15px;
+    color: #495057;
+}
+
+.btn-warning.editar,
+.btn-danger.eliminar {
+    padding: 8px 14px;
+    border-radius: 10px;
+    transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.btn-warning.editar {
+    background: linear-gradient(135deg, #ffc107 0%, #ff9800 100%);
+    color: white;
+    box-shadow: 0 3px 10px rgba(255, 193, 7, 0.3);
+}
+
+.btn-warning.editar:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 6px 20px rgba(255, 193, 7, 0.5);
+}
+
+.btn-danger.eliminar {
+    background: linear-gradient(135deg, #dc3545 0%, #c82333 100%);
+    color: white;
+    box-shadow: 0 3px 10px rgba(220, 53, 69, 0.3);
+}
+
+.btn-danger.eliminar:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 6px 20px rgba(220, 53, 69, 0.5);
+}
+
+.modal-content {
+    border-radius: 20px;
+    overflow: hidden;
+    box-shadow: 0 20px 60px rgba(0, 0, 0, 0.3);
+}
+
+.modal-header {
+    background: linear-gradient(90deg, #0039a6, #006bff, #00c6ff);
+    border-bottom: none;
+    padding: 25px 30px;
+}
+
+.modal-body {
+    padding: 15px;
+    background: #f8f9fa;
+}
+
+.form-label {
+    font-weight: 600;
+    color: #495057;
+}
+
+.form-control {
+    border-radius: 10px;
+    padding: 10px;
+    transition: all 0.5s ease;
+}
+
+.form-control:hover {
+    border-color: #667eea;
+}
+
+.btn-secondary {
+    background: #6c757d;
+    border: none;
+    padding: 10px 25px;
+    border-radius: 10px;
+    font-weight: 600;
+    transition: all 0.3s ease;
+}
+
+.btn-secondary:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 4px 12px rgba(108, 117, 125, 0.3);
+}
+
+#agregarProfesorBtn {
+    background: linear-gradient(90deg, #0039a6, #006bff, #00c6ff);
+    border: none;
+    padding: 12px 30px;
+    font-weight: 600;
+    border-radius: 12px;
+    transition: all 0.3s ease;
+    box-shadow: 0 4px 15px rgba(102, 126, 234, 0.4);
+}
+
+
+#agregarProfesorBtn:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 8px 25px rgba(102, 126, 234, 0.5);
+}
+
+
+#guardarProfesor {
+    background: linear-gradient(135deg, #28a745 0%, #20c997 100%);
+    padding: 10px 25px;
+    border-radius: 10px;
+    transition: all 0.3s ease;
+    box-shadow: 0 4px 12px rgba(40, 167, 69, 0.3);
+}
+
+#guardarProfesor:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 6px 20px rgba(40, 167, 69, 0.4);
 }
