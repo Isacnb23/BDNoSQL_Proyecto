@@ -51,7 +51,6 @@ body {
     transform: scale(1.2) rotate(5deg);
 }
 
-
 thead {
     background: linear-gradient(90deg, #0039a6, #006bff, #00c6ff);
     color: white;
@@ -133,11 +132,10 @@ tbody td {
 }
 
 .btn-secondary:hover {
-    transform: translateY(-2px);
     box-shadow: 0 4px 12px rgba(108, 117, 125, 0.3);
 }
 
-#agregarProfesorBtn {
+.agregar-btn {
     background: linear-gradient(90deg, #0039a6, #006bff, #00c6ff);
     border: none;
     padding: 12px 30px;
@@ -148,13 +146,13 @@ tbody td {
 }
 
 
-#agregarProfesorBtn:hover {
+.agregar-btn:hover {
     transform: translateY(-3px);
     box-shadow: 0 8px 25px rgba(102, 126, 234, 0.5);
 }
 
 
-#guardarProfesor {
+.guardar-btn {
     background: linear-gradient(135deg, #28a745 0%, #20c997 100%);
     padding: 10px 25px;
     border-radius: 10px;
@@ -162,7 +160,7 @@ tbody td {
     box-shadow: 0 4px 12px rgba(40, 167, 69, 0.3);
 }
 
-#guardarProfesor:hover {
+.guardar-btn:hover {
     transform: translateY(-2px);
     box-shadow: 0 6px 20px rgba(40, 167, 69, 0.4);
 }

@@ -10,7 +10,7 @@
     <link rel="stylesheet" href="../css/style.css"> 
 </head>
 
-<body class="d-flex">
+<body data-page="profesores" class="d-flex">
     <div id="sidebar"></div>
 
     <div class="flex-grow-1 d-flex flex-column">
@@ -22,7 +22,7 @@
                     <p class="text-center text-muted">Administración y control del personal docente.</p>
                     <hr class="mb-4">
 
-                    <button id="agregarProfesorBtn" type="button" class="btn btn-primary mb-3 shadow-sm" data-bs-toggle="modal" data-bs-target="#profesorModal">
+                    <button id="agregarProfesorBtn" type="button" class="btn btn-primary mb-3 shadow-sm agregar-btn" data-bs-toggle="modal" data-bs-target="#profesorModal">
                         <i class="fas fa-user-plus me-1"></i> Agregar Nuevo Profesor
                     </button>
 
@@ -87,7 +87,7 @@
                         </div>
                         <div class="modal-footer">
                             <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
-                            <button type="submit" class="btn btn-success" id="guardarProfesor">
+                            <button type="submit" class="btn btn-success guardar-btn" id="guardarProfesor">
                                 <i class="fas fa-save me-1"></i> Guardar
                             </button>
                         </div>
