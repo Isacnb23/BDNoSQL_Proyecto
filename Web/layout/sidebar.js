@@ -4,8 +4,7 @@ const sidebar = `
     <hr>
 
     <ul class="nav flex-column">
-        <li><a href="index.html" class="nav-link text-white active"><i class="fas fa-home me-2"></i>Inicio</a></li>
-        
+        <li><a href="../index.html" class="nav-link text-white active"><i class="fas fa-home me-2"></i>Inicio</a></li>
         <li><a href="module/profesores.html" class="nav-link text-white"><i class="fas fa-chalkboard-teacher me-2"></i>Profesores</a></li>
         <li><a href="module/estudiantes.html" class="nav-link text-white"><i class="fas fa-user-graduate me-2"></i>Estudiantes</a></li>
         <li><a href="module/cursos.html" class="nav-link text-white"><i class="fas fa-book me-2"></i>Cursos</a></li>

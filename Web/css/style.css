@@ -1,5 +1,5 @@
 body {
-    font-family: 'Poppins', sans-serif;
+    background: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
 }
 
 #sidebar {
@@ -7,27 +7,62 @@ body {
     height: 100vh;
 }
 
+#sidebar > div {
+    position: fixed;
+    background: linear-gradient(135deg, #0039a6, #006bff, #00c6ff);
+    box-shadow: 4px 0 20px rgba(0, 57, 166, 0.3);
+}
+
 #sidebar .nav-link {
-    border-radius: 8px;
-    transition: all 0.3s ease;
+    border-radius: 12px;
+    transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+    margin: 4px 0;
 }
 
 #sidebar .nav-link:hover {
     background-color: rgba(255, 255, 255, 0.2);
-    transform: translateX(5px);
-    padding-left: 20px;
+    transform: translateX(8px);
+    color: #fff;
+}
+
+#sidebar .nav-link.active {
+    background-color: rgba(255, 255, 255, 0.25);
+    color: #fff;
+    font-weight: 600;
+}
+
+h2.bold {
+    background: linear-gradient(135deg, #0039a6, #00c6ff);
+    font-size: 2.5rem;
+    padding-bottom: 15px;
 }
 
 .card {
-    transition: all 0.3s ease;
+    transition: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);
     cursor: pointer;
-    border: none;
+    border-radius: 16px;
+    background: #fff;
+}
+
+.card::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 4px;
+    background: linear-gradient(90deg, #0039a6, #006bff, #00c6ff);
 }
 
 .card:hover {
-    transform: translateY(-10px) scale(1.05);
-    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.15) !important;
+    transform: translateY(-12px);
+    box-shadow: 0 20px 40px rgba(0, 57, 166, 0.2) !important;
 }
 
+.card i {
+    transition: all 0.4s ease;
+}
 
-
+.card:hover i {
+    transform: scale(1.2) rotate(5deg);
+}
