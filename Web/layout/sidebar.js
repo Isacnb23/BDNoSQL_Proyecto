@@ -7,8 +7,8 @@ const sidebar = `
         <li><a data-page="inicio" href="/BDNoSQL_Proyecto/Web/index.html" class="nav-link text-white"><i class="fas fa-home me-2"></i>Inicio</a></li>
         <li><a data-page="profesores" href="/BDNoSQL_Proyecto/Web/module/profesores.html" class="nav-link text-white"><i class="fas fa-chalkboard-teacher me-2"></i>Profesores</a></li>
         <li><a data-page="estudiantes" href="/BDNoSQL_Proyecto/Web/module/estudiantes.html" class="nav-link text-white"><i class="fas fa-user-graduate me-2"></i>Estudiantes</a></li>
-        <li><a href="/BDNoSQL_Proyecto/Web/module/cursos.html" class="nav-link text-white"><i class="fas fa-book me-2"></i>Cursos</a></li>
-        <li><a href="/BDNoSQL_Proyecto/Web/module/horarios.html" class="nav-link text-white"><i class="fas fa-calendar-alt me-2"></i>Horarios</a></li>
+        <li><a data-page="cursos" href="/BDNoSQL_Proyecto/Web/module/cursos.html" class="nav-link text-white"><i class="fas fa-book me-2"></i>Cursos</a></li>
+        <li><a data-page="inscripciones" href="/BDNoSQL_Proyecto/Web/module/inscripciones.html" class="nav-link text-white"><i class="fas fa-user-check me-2"></i>Inscripciones</a></li>
         <li><a href="/BDNoSQL_Proyecto/Web/module/pagos.html" class="nav-link text-white"><i class="fas fa-money-check-dollar me-2"></i>Pagos</a></li>
     </ul>
 
