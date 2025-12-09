@@ -9,7 +9,7 @@ const sidebar = `
         <li><a data-page="estudiantes" href="/BDNoSQL_Proyecto/Web/module/estudiantes.html" class="nav-link text-white"><i class="fas fa-user-graduate me-2"></i>Estudiantes</a></li>
         <li><a data-page="cursos" href="/BDNoSQL_Proyecto/Web/module/cursos.html" class="nav-link text-white"><i class="fas fa-book me-2"></i>Cursos</a></li>
         <li><a data-page="inscripciones" href="/BDNoSQL_Proyecto/Web/module/inscripciones.html" class="nav-link text-white"><i class="fas fa-user-check me-2"></i>Inscripciones</a></li>
-        <li><a href="/BDNoSQL_Proyecto/Web/module/pagos.html" class="nav-link text-white"><i class="fas fa-money-check-dollar me-2"></i>Pagos</a></li>
+        <li><a data-page="horarios" href="/BDNoSQL_Proyecto/Web/module/horarios.html" class="nav-link text-white"><i class="fa-solid fa-calendar me-2"></i>Horarios</a></li>
     </ul>
 
     <hr>

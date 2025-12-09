@@ -164,3 +164,15 @@ tbody td {
     transform: translateY(-2px);
     box-shadow: 0 6px 20px rgba(40, 167, 69, 0.4);
 }
+
+.select-filter{ 
+    border-radius: 10px;
+    padding: 10px;
+    transition: all 0.5s ease;
+    max-width: 300px;
+    margin-left: auto;
+}
+
+.select-filter:hover {
+    border-color: #667eea;
+}

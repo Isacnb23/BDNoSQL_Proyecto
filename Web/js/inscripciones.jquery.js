@@ -18,7 +18,6 @@ $(document).ready(function () {
                     <td>${i.curso}</td>
                     <td>${i.fechaInscripcion ? new Date(i.fechaInscripcion).toLocaleDateString() : "Sin fecha"}</td>
                     <td>${i.estado}</td>
-                    <td>${i.fechaCreacion ? new Date(i.fechaCreacion).toLocaleDateString() : "Sin fecha"}</td>
                     <td>
                         <button class="btn btn-warning btn-sm editar" data-id="${i._id}">
                             <i class="fa fa-edit"></i>

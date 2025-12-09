@@ -18,7 +18,7 @@ const horarioSchema = new mongoose.Schema({
         required: true
     },
     aula: {
-        type: String,
+        type: mongoose.Schema.Types.ObjectId,
         required: true
     },
     fechaCreacion: {
