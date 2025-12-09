@@ -10,6 +10,11 @@ const sidebar = `
         <li><a data-page="cursos" href="/BDNoSQL_Proyecto/Web/module/cursos.html" class="nav-link text-white"><i class="fas fa-book me-2"></i>Cursos</a></li>
         <li><a data-page="inscripciones" href="/BDNoSQL_Proyecto/Web/module/inscripciones.html" class="nav-link text-white"><i class="fas fa-user-check me-2"></i>Inscripciones</a></li>
         <li><a data-page="horarios" href="/BDNoSQL_Proyecto/Web/module/horarios.html" class="nav-link text-white"><i class="fa-solid fa-calendar me-2"></i>Horarios</a></li>
+        <li><a data-page="idiomas" href="http://localhost:3000/module/idiomas.html" class="nav-link text-white"><i class="fas fa-language me-2"></i>Idiomas</a></li>
+        <li><a data-page="niveles" href="http://localhost:3000/module/niveles.html" class="nav-link text-white"><i class="fas fa-layer-group me-2"></i>Niveles</a></li>
+        <li><a data-page="sedes" href="http://localhost:3000/module/sedes.html" class="nav-link text-white"><i class="fas fa-building me-2"></i>Sedes</a></li>
+        <li><a data-page="roles" href="http://localhost:3000/module/roles.html" class="nav-link text-white"><i class="fas fa-user-shield me-2"></i>Roles</a></li>
+        <li><a data-page="usuarios" href="http://localhost:3000/module/usuarios.html" class="nav-link text-white"><i class="fas fa-users me-2"></i>Usuarios</a></li>
     </ul>
 
     <hr>
