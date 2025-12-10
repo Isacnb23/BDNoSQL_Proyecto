@@ -1,6 +1,24 @@
 $(document).ready(function () {
 
     const API_USUARIOS = "http://localhost:3000/api/usuarios";
+    const API_ROLES = "http://localhost:3000/api/roles";
+
+    function cargarRolesSelect() {
+        $.ajax({
+            url: API_ROLES,
+            method: "GET",
+            success: function (roles) {
+                let opciones = '<option value="">Seleccione un rol...</option>';
+                roles.forEach(r => {
+                    opciones += `<option value="${r._id}">${r.nombre}</option>`;
+                });
+                $("#nota_rol").html(opciones); // CAMBIADO: de #rol a #nota_rol
+            },
+            error: function () {
+                console.error("Error al cargar roles");
+            }
+        });
+    }
 
     function cargarUsuarios() {
         $.ajax({
@@ -14,12 +32,16 @@ $(document).ready(function () {
                         ? '<span class="badge bg-success">Activo</span>' 
                         : '<span class="badge bg-secondary">Inactivo</span>';
                     
+                    const rolNombre = u.nota_rol?.nombre || 'Sin rol';
+                    const fechaCreacion = new Date(u.fechaCreacion).toLocaleDateString();
+                    
                     filas += `
                         <tr>
                             <td>${u.nombre}</td>
                             <td>${u.email}</td>
+                            <td><span class="badge bg-info">${rolNombre}</span></td>
                             <td>${estadoBadge}</td>
-                            <td>${new Date(u.fechaCreacion).toLocaleDateString()}</td>
+                            <td>${fechaCreacion}</td>
                             <td>
                                 <button class="btn btn-warning btn-sm editar" data-id="${u._id}">
                                     <i class="fa fa-edit"></i>
@@ -40,6 +62,7 @@ $(document).ready(function () {
         });
     }
 
+    cargarRolesSelect();
     cargarUsuarios();
 
     $("#agregarUsuarioBtn").click(function () {
@@ -47,26 +70,30 @@ $(document).ready(function () {
         $("#usuarioId").val("");
         $("#usuarioModalLabel").text("Agregar Usuario");
         $("#password").prop('required', true);
+        cargarRolesSelect();
     });
 
     $("#guardarUsuario").click(function () {
-
         const usuario = {
             nombre: $("#nombre").val(),
             email: $("#email").val(),
+            nota_rol: $("#nota_rol").val(), 
             estado: $("#estado").val()
         };
 
         const password = $("#password").val();
         const id = $("#usuarioId").val();
 
-        
+        if (!usuario.nota_rol) {
+            alert("Debe seleccionar un rol");
+            return;
+        }
+
         if (password !== "") {
             usuario.password = password;
         }
 
         if (id === "") {
-            
             if (!password) {
                 alert("La contraseña es obligatoria al crear un usuario");
                 return;
@@ -80,14 +107,15 @@ $(document).ready(function () {
                 success: function () {
                     $("#usuarioModal").modal("hide");
                     cargarUsuarios();
+                    alert("Usuario creado exitosamente");
                 },
-                error: function () {
-                    alert("Error al crear usuario");
+                error: function (xhr) {
+                    const error = xhr.responseJSON?.message || "Error al crear usuario";
+                    alert(error);
                 }
             });
 
         } else {
-           
             $.ajax({
                 url: `${API_USUARIOS}/${id}`,
                 method: "PUT",
@@ -96,9 +124,11 @@ $(document).ready(function () {
                 success: function () {
                     $("#usuarioModal").modal("hide");
                     cargarUsuarios();
+                    alert("Usuario actualizado exitosamente");
                 },
-                error: function () {
-                    alert("Error al actualizar usuario");
+                error: function (xhr) {
+                    const error = xhr.responseJSON?.message || "Error al actualizar usuario";
+                    alert(error);
                 }
             });
         }
@@ -115,6 +145,13 @@ $(document).ready(function () {
                 $("#nombre").val(usuario.nombre);
                 $("#email").val(usuario.email);
                 $("#estado").val(usuario.estado);
+                
+                cargarRolesSelect();
+                setTimeout(() => {
+                    const rolId = usuario.nota_rol?._id || usuario.nota_rol;
+                    $("#nota_rol").val(rolId); 
+                }, 100);
+                
                 $("#password").val(""); 
                 $("#password").prop('required', false); 
                 
@@ -137,6 +174,7 @@ $(document).ready(function () {
             method: "DELETE",
             success: function () {
                 cargarUsuarios();
+                alert("Usuario eliminado exitosamente");
             },
             error: function () {
                 alert("Error al eliminar el usuario");

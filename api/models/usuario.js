@@ -13,6 +13,11 @@ const usuarioSchema = new mongoose.Schema({
         type: String,
         required: true
     },
+    nota_rol: {  
+    type: mongoose.Schema.Types.ObjectId,
+    ref: 'role',
+    required: true
+},
     estado: {
         type: String,
         default: 'activo'
