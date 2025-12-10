@@ -111,11 +111,12 @@ route.get('/', async (req, resp) => {
      }
 });
 
+
 route.get('/curso/:cursoId', async (req, resp) => {
     try {
-        const horarios = await Horario.find({
-            cursoId: req.params.cursoId
-        });
+        const { cursoId } = req.params;
+
+        const horarios = await Horario.find({ cursoId });
 
         const horariosCompletos = [];
 
@@ -125,12 +126,13 @@ route.get('/curso/:cursoId', async (req, resp) => {
 
             horariosCompletos.push({
                 _id: h._id,
+                cursoId: h.cursoId,
                 curso: curso ? curso.nombre : "Curso no encontrado",
                 diaSemana: h.diaSemana,
                 horaInicio: h.horaInicio,
                 horaFin: h.horaFin,
-                fechaCreacion: h.fechaCreacion,
-                aula: aula ? aula.nombre || aula.codigo : "Aula no encontrada"
+                aula: aula ? (aula.nombre || aula.codigo) : "Aula no encontrada",
+                fechaCreacion: h.fechaCreacion
             });
         }
 
@@ -140,6 +142,7 @@ route.get('/curso/:cursoId', async (req, resp) => {
         resp.status(500).json({ mensaje: error.message });
     }
 });
+
 
 //Buscar por id
 route.get('/:id', async (req, resp) => {

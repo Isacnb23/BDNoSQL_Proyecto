@@ -2,7 +2,7 @@ const express = require('express');
 const route = express.Router();
 
 const Evaluacion = require('../models/evaluacion');
-
+const Curso = require('../models/curso');
 
 //Crear una nueva evaluacion
 route.post('/', async(req, resp) =>{
@@ -78,17 +78,61 @@ route.delete('/:id', async(req, resp) =>{
 );
 
 
+route.get('/', async (req, resp) => {
+    try {
+        const evaluaciones = await Evaluacion.find();
+        const evaluacionesCompletas = [];
+        for (let e of evaluaciones) {
+            const curso = await Curso.findById(e.cursoId);
 
-//Obtener datos
-route.get('/', async(req, resp) =>{
-               try {
-                         const evaluacionDatos = await Evaluacion.find();
-                         resp.json(evaluacionDatos);
-               }catch(error){
-                         resp.status(500).json({mesaje: error.message});
-               }
-      }
-);
+            evaluacionesCompletas.push({
+                _id: e._id,
+                curso: curso ? curso.nombre : "Curso no encontrado",
+                nombre: e.nombre,
+                tipo: e.tipo,
+                fecha: e.fecha,
+                puntajeMaximo: e.puntajeMaximo,
+                fechaCreacion: e.fechaCreacion
+            });
+        }
+
+        resp.json(evaluacionesCompletas);
+
+    } catch (error) {
+        resp.status(500).json({ mensaje: error.message });
+    }
+});
+
+route.get('/curso/:cursoId', async (req, resp) => {
+    try {
+        const { cursoId } = req.params;
+
+        const evaluaciones = await Evaluacion.find({ cursoId });
+
+        const evaluacionesCompletas = [];
+
+        for (let e of evaluaciones) {
+            const curso = await Curso.findById(e.cursoId);
+
+            evaluacionesCompletas.push({
+                _id: e._id,
+                cursoId: e.cursoId,
+                curso: curso ? curso.nombre : "Curso no encontrado",
+                nombre: e.nombre,
+                tipo: e.tipo,
+                fecha: e.fecha,
+                puntajeMaximo: e.puntajeMaximo,
+                fechaCreacion: e.fechaCreacion
+            });
+        }
+
+        resp.json(evaluacionesCompletas);
+
+    } catch (error) {
+        resp.status(500).json({ mensaje: error.message });
+    }
+});
+
 
 //Buscar por id
 route.get('/:id', async(req, resp) =>{

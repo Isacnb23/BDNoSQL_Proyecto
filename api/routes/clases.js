@@ -90,6 +90,17 @@ route.get('/', async(req, resp) =>{
       }
 );
 
+route.get('/curso/:cursoId', async (req, res) => {
+  try {
+    const clases = await Clase.find({ cursoId: req.params.cursoId })
+                              .sort({ fecha: -1 });
+    res.json(clases);
+  } catch (error) {
+    res.status(500).json({ mensaje: error.message });
+  }
+});
+
+
 //Buscar por id
 route.get('/:id', async(req, resp) =>{
 
