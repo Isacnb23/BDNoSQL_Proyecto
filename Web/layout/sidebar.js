@@ -18,6 +18,9 @@ const sidebar = `
     </ul>
 
     <hr>
+     <button onclick="cerrarSesion()" class="btn btn-danger w-100">
+        <i class="fas fa-sign-out-alt me-2"></i>Cerrar Sesión
+    </button>
 </div>
 `;
 

@@ -34,7 +34,11 @@ mongoose.connect('mongodb://localhost:27017/academiaEuropeaBD', {
 
 
 //las rutas
+app.get('/', (req, res) => {
+    res.redirect('/module/login.html');
+});
 app.use('/api', rutas);
+
 
 
 app.get('/', (req, res) => {
