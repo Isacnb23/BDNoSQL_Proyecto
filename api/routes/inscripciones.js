@@ -108,6 +108,28 @@ route.get('/', async (req, resp) => {
      }
 });
 
+route.get('/curso/:cursoId', async (req, resp) => {
+  try {
+    const inscripciones = await Inscripcion.find({ 
+      cursoId: req.params.cursoId,
+      estado: 'activa'
+    });
+
+    const estudiantes = [];
+
+    for (let i of inscripciones) {
+      const estudiante = await Estudiante.findById(i.estudianteId);
+      if (estudiante) {
+        estudiantes.push(estudiante);
+      }
+    }
+
+    resp.json(estudiantes);
+  } catch (error) {
+    resp.status(500).json({ mensaje: error.message });
+  }
+});
+
 
 //Buscar por id
 route.get('/:id', async (req, resp) => {
