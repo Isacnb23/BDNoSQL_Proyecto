@@ -151,8 +151,9 @@ const sidebar = `
 
 
     <hr>
-     <button onclick="cerrarSesion()" class="btn btn-danger w-100">
-        <i class="fas fa-sign-out-alt me-2"></i>Cerrar Sesión
+    <button id="btnLogout" class="btn-logout w-100">
+        <i class="fas fa-sign-out-alt"></i>
+        <span>Cerrar sesión</span>
     </button>
 </div>
 `;
