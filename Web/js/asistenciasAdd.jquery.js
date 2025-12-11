@@ -26,33 +26,25 @@ $(document).ready(function () {
     $("#cursoId").change(function () {
         const cursoId = $(this).val();
         if (!cursoId) return;
-
-        cargarClases(cursoId);
         cargarEstudiantes(cursoId);
-    });
-
-    function cargarClases(cursoId) {
         $.ajax({
             url: `${API_CLASES}/curso/${cursoId}`,
             method: "GET",
             success: function (clases) {
-                let opciones = `<option value="">Seleccione una clase</option>`;
+                const clase = clases[0];
 
-                clases.forEach(c => {
-                    opciones += `
-                    <option value="${c._id}">
-                        ${new Date(c.fecha).toLocaleDateString()} - ${c.tema}
-                    </option>`;
-                });
+                $("#claseId").html(`
+                    <option value="${clase._id}" selected>
+                        ${new Date(clase.fecha).toLocaleDateString()} - ${clase.tema}
+                    </option>
+                `);
 
-                $("#claseId").html(opciones);
             },
             error: function () {
-                alert("Error al cargar clases");
+                alert("Error al obtener la clase del curso");
             }
         });
-    }
-
+    });
 
     function cargarEstudiantes(cursoId) {
         $.ajax({
@@ -88,7 +80,7 @@ $(document).ready(function () {
         const claseId = $("#claseId").val();
 
         if (!claseId) {
-            alert("Debe seleccionar una clase y una fecha.");
+            alert("Debe seleccionar una clase");
             return;
         }
 

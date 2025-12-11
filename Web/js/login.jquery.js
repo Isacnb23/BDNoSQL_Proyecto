@@ -15,7 +15,7 @@ $(document).ready(function () {
 
                 if (usuario) {
                     localStorage.setItem("usuarioLogueado", usuario.nombre);
-                    window.location.href = "http://localhost:3000";
+                    window.location.href = "http://localhost:3000/module/home.html";
                 } else {
                     $("#errorMessage").text("Correo o contraseña incorrectos").addClass("show");
                     setTimeout(() => $("#errorMessage").removeClass("show"), 3000);

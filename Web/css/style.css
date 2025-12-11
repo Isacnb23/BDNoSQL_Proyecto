@@ -4,14 +4,21 @@ body {
 
 #sidebar {
     width: 280px;
-    height: 100vh;
+    flex-shrink: 0;
 }
 
 #sidebar > div {
     position: fixed;
+    top: 0;
+    left: 0;
+    width: 280px;
+    height: 100vh;
     background: linear-gradient(135deg, #0039a6, #006bff, #00c6ff);
     box-shadow: 4px 0 20px rgba(0, 57, 166, 0.3);
+    z-index: 1000;
 }
+
+
 
 #sidebar .nav-link {
     border-radius: 12px;
@@ -175,4 +182,104 @@ tbody td {
 
 .select-filter:hover {
     border-color: #667eea;
+}
+
+@media (max-width: 1200px) {
+    #sidebar {
+        width: 250px;
+    }
+}
+
+@media (max-width: 767px) {
+    body {
+        display: block !important;
+    }
+    
+    #sidebar {
+        width: 100%;
+        height: auto;
+        position: relative;
+        flex-shrink: 1;
+    }
+    
+    #sidebar > div {
+        position: relative !important;
+        width: 100% !important;
+        height: auto !important;
+        box-shadow: 0 4px 20px rgba(0, 57, 166, 0.3);
+    }
+    
+    #sidebar .nav-link {
+        padding: 12px 20px;
+        font-size: 15px;
+    }
+    
+    main {
+        padding: 1rem !important;
+    }
+    
+    .card {
+        margin-bottom: 15px;
+    }
+    
+    .card i {
+        font-size: 2rem;
+    }
+    
+    .table-responsive {
+        overflow-x: auto;
+        -webkit-overflow-scrolling: touch;
+    }
+    
+    table {
+        min-width: 600px;
+    }
+    
+    tbody td {
+        padding: 10px 8px;
+        font-size: 13px;
+        white-space: nowrap;
+    }
+    
+    .btn-warning.editar,
+    .btn-danger.eliminar {
+        padding: 5px 10px;
+        font-size: 12px;
+        margin: 2px 0;
+        display: inline-block;
+        width: auto;
+    }
+    
+    .modal-header {
+        padding: 20px;
+    }
+    
+    .modal-body {
+        padding: 15px;
+    }
+    
+    .modal-footer {
+        padding: 15px;
+        flex-wrap: wrap;
+    }
+    
+    .modal-footer button {
+        margin: 5px;
+        flex: 1 1 auto;
+    }
+    
+    .agregar-btn {
+        width: 100%;
+        margin-bottom: 15px;
+    }
+    
+    .select-filter {
+        max-width: 100%;
+        margin-left: 0;
+        margin-bottom: 15px;
+    }
+    
+    h2 {
+        font-size: 1.5rem;
+    }
 }

@@ -9,6 +9,10 @@ const inscripcionSchema = new mongoose.Schema({
         type: mongoose.Schema.Types.ObjectId,
         required: true
     },
+    claseId: {
+        type: mongoose.Schema.Types.ObjectId,
+        required: true
+    },
     fechaInscripcion: {
         type: Date,
         default: Date.now

@@ -2,6 +2,7 @@ $(document).ready(function () {
     const API_ASISTENCIAS = "http://localhost:3000/api/asistencias";
     const API_ESTUDIANTES = "http://localhost:3000/api/estudiantes";
     const API_CLASES = "http://localhost:3000/api/clases";
+    const API_CURSOS = "http://localhost:3000/api/cursos";
 
     function cargarAsistencias() {
         $.ajax({
@@ -67,6 +68,8 @@ $(document).ready(function () {
     $(document).on("click", ".editar", function () {
         const id = $(this).data("id");
 
+        $("#cursoFiltro").val("todos");
+        $("#claseFiltro").val("");
         $.ajax({
             url: `${API_ASISTENCIAS}/${id}`,
             method: "GET",
@@ -111,38 +114,29 @@ $(document).ready(function () {
         const cursoId = $(this).val();
 
         if (cursoId === "todos") {
-            $("#claseFiltro").html(`<option value="">Seleccione una clase</option>`);
+            $("#claseFiltro").html(`<option value="">Seleccione un curso</option>`);
             cargarAsistencias();
-            return; 
+            return;
         }
 
         $.ajax({
             url: `${API_CLASES}/curso/${cursoId}`,
             method: "GET",
             success: function (clases) {
-                let opciones = `<option value="">Seleccione una clase</option>`;
-                clases.forEach(c => {
-                    opciones += `
-                <option value="${c._id}">
-                    ${new Date(c.fecha).toLocaleDateString()} - ${c.tema}
-                </option>`;
-                });
-
-                $("#claseFiltro").html(opciones);
+                if (clases.length > 0) {
+                    const c = clases[0]; // Solo hay 1 clase por curso
+                    $("#claseFiltro").html(`<option value="${c._id}">${c.tema}</option>`);
+                } else {
+                    $("#claseFiltro").html(`<option value="">No hay clase</option>`);
+                }
             },
             error: function () {
-                alert("Error al cargar clases");
+                alert("Error al cargar la clase del curso");
             }
         });
-    });
-
-
-    $("#claseFiltro").change(function () {
-        const claseId = $(this).val();
-        if (!claseId) return;
 
         $.ajax({
-            url: `${API_ASISTENCIAS}/clase/${claseId}`,
+            url: `${API_ASISTENCIAS}/curso/${cursoId}`,
             method: "GET",
             success: function (asistencias) {
                 let filas = "";
@@ -151,7 +145,7 @@ $(document).ready(function () {
                     filas = `
                 <tr>
                     <td colspan="5" class="text-center text-muted">
-                        No hay asistencias registradas para esta clase
+                        No hay asistencias registradas para este curso
                     </td>
                 </tr>`;
                 } else {
@@ -206,13 +200,13 @@ $(document).ready(function () {
             url: API_CLASES,
             method: "GET",
             success: function (clases) {
-                let opciones = `<option value="" disabled selected>Seleccione una clase</option>`;
-
+                let opciones = "";
                 clases.forEach(c => {
                     opciones += `<option value="${c._id}">${c.tema}</option>`;
                 });
-
                 $("#claseId").html(opciones);
+
+                $("#claseId").prop("disabled", true);
             },
             error: function () {
                 alert("Error al cargar clases");
@@ -222,7 +216,7 @@ $(document).ready(function () {
 
     function cargarCursosFiltro() {
         $.ajax({
-            url: "http://localhost:3000/api/cursos",
+            url: API_CURSOS,
             method: "GET",
             success: function (cursos) {
                 let opciones = `<option value="todos">Todos los cursos</option>`;
@@ -233,5 +227,4 @@ $(document).ready(function () {
             }
         });
     }
-
 });

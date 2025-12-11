@@ -4,6 +4,7 @@ const route = express.Router();
 const Asistencia = require('../models/asistencia');
 const Estudiante = require('../models/estudiante');
 const Clase = require('../models/clase');
+const Curso = require('../models/curso');
 
 //Crear una nueva asistencia
 route.post('/', async (req, resp) => {
@@ -161,6 +162,38 @@ route.get('/clase/:claseId', async (req, res) => {
           res.status(500).json({ mensaje: error.message });
      }
 });
+
+route.get("/curso/:cursoId", async (req, res) => {
+    try {
+        const cursoId = req.params.cursoId;
+        const clases = await Clase.find({ cursoId: cursoId });
+        const claseIds = clases.map(c => c._id);
+
+        const asistencias = await Asistencia.find({ claseId: { $in: claseIds } });
+
+        const asistenciasCompletas = [];
+
+        for (let a of asistencias) {
+            const estudiante = await Estudiante.findById(a.estudianteId);
+            const clase = await Clase.findById(a.claseId);
+
+            asistenciasCompletas.push({
+                _id: a._id,
+                estudiante: estudiante ? `${estudiante.nombre} ${estudiante.apellido}` : "Estudiante no encontrado",
+                clase: clase ? clase.tema : "Clase no encontrada",
+                fecha: a.fecha,
+                estado: a.estado,
+                fechaCreacion: a.fechaCreacion
+            });
+        }
+
+        res.json(asistenciasCompletas);
+
+    } catch (error) {
+        res.status(500).json({ mensaje: error.message });
+    }
+});
+
 
 
 //Buscar por id

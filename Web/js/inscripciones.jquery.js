@@ -3,6 +3,7 @@ $(document).ready(function () {
     const API_INSCRIPCIONES = "http://localhost:3000/api/inscripciones";
     const API_ESTUDIANTES = "http://localhost:3000/api/estudiantes";
     const API_CURSOS = "http://localhost:3000/api/cursos";
+    const API_CLASES = "http://localhost:3000/api/clases";
 
     function cargarInscripciones() {
         $.ajax({
@@ -16,6 +17,7 @@ $(document).ready(function () {
                 <tr>
                     <td>${i.estudiante}</td>
                     <td>${i.curso}</td>
+                    <td>${i.clase}</td>
                     <td>${i.fechaInscripcion ? new Date(i.fechaInscripcion).toLocaleDateString() : "Sin fecha"}</td>
                     <td>${i.estado}</td>
                     <td>
@@ -48,13 +50,44 @@ $(document).ready(function () {
 
         cargarEstudiantes();
         cargarCursos();
+
+        $("#claseId").html(`<option selected disabled>Seleccione una clase</option>`);
     });
+
+    $("#cursoId").change(function () {
+        const cursoId = $(this).val();
+        if (!cursoId) return;
+        cargarClasePorCurso(cursoId);
+    });
+
+    function cargarClasePorCurso(cursoId) {
+        $.ajax({
+            url: `${API_CLASES}/curso/${cursoId}`,
+            method: "GET",
+            success: function (clases) {
+                if (!clases.length) {
+                    $("#claseId").html(`<option disabled>No hay clases</option>`);
+                    return;
+                }
+                const clase = clases[0];
+                $("#claseId").html(`
+                    <option value="${clase._id}" selected>
+                        ${new Date(clase.fecha).toLocaleDateString()} - ${clase.tema}
+                    </option>
+                `);
+            },
+            error: function () {
+                alert("Error al cargar la clase");
+            }
+        });
+    }
 
     $("#guardarInscripcion").click(function () {
 
         const inscripcion = {
             estudianteId: $("#estudianteId").val(),
             cursoId: $("#cursoId").val(),
+            claseId: $("#claseId").val(),
             estado: $("#estado").val()
         };
 
@@ -62,6 +95,11 @@ $(document).ready(function () {
 
         if (id === "") {
             // CREAR
+            if (!$("#claseId").val()) {
+                alert("Debe existir una clase para el curso seleccionado");
+                return;
+            }
+
             $.ajax({
                 url: API_INSCRIPCIONES,
                 method: "POST",

@@ -4,11 +4,13 @@ const route = express.Router();
 const Inscripcion = require('../models/inscripcion');
 const Curso = require('../models/curso');
 const Estudiante = require('../models/estudiante');
+const Clase = require('../models/clase');
 
 //Crear una nueva inscripcion
 route.post('/', async (req, resp) => {
      const { estudianteId,
           cursoId,
+          claseId,
           fechaInscripcion,
           estado } = req.body;
 
@@ -17,6 +19,7 @@ route.post('/', async (req, resp) => {
           {
                estudianteId,
                cursoId,
+               claseId,
                fechaInscripcion,
                estado
           }
@@ -90,11 +93,13 @@ route.get('/', async (req, resp) => {
           for (let c of inscripcionDatos) {
                const estudiante = await Estudiante.findById(c.estudianteId);
                const curso = await Curso.findById(c.cursoId);
+               const clase = await Clase.findById(c.claseId);
 
                inscripcionesCompletas.push({
                     _id: c._id,
                     estudiante: estudiante ? `${estudiante.nombre} ${estudiante.apellido}` : "Estudiante no encontrado",
                     curso: curso ? curso.nombre : "Curso no encontrado",
+                    clase: clase ? `${new Date(clase.fecha).toLocaleDateString()} - ${clase.tema}` : "Clase no encontrada",
                     fechaInscripcion: c.fechaInscripcion || null,
                     estado: c.estado,
                     fechaCreacion: c.fechaCreacion || null
@@ -130,6 +135,26 @@ route.get('/curso/:cursoId', async (req, resp) => {
   }
 });
 
+route.get('/clase/:claseId', async (req, resp) => {
+    try {
+        const inscripciones = await Inscripcion.find({
+            claseId: req.params.claseId,
+            estado: 'activa'
+        });
+
+        const estudiantes = [];
+
+        for (let i of inscripciones) {
+            const estudiante = await Estudiante.findById(i.estudianteId);
+            if (estudiante) estudiantes.push(estudiante);
+        }
+
+        resp.json(estudiantes);
+
+    } catch (error) {
+        resp.status(500).json({ mensaje: error.message });
+    }
+});
 
 //Buscar por id
 route.get('/:id', async (req, resp) => {
