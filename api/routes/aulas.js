@@ -2,6 +2,8 @@ const express = require('express');
 const route = express.Router();
 
 const Aula = require('../models/aula');
+const Sede = require('../models/sede');
+
 
 
 //Crear un nuevo aula
@@ -78,35 +80,63 @@ route.delete('/:id', async(req, resp) =>{
 
 
 //Obtener datos
-route.get('/', async(req, resp) =>{
-               try {
-                         const aulaDatos = await Aula.find();
-                         resp.json(aulaDatos);
-               }catch(error){
-                         resp.status(500).json({mesaje: error.message});
-               }
-      }
-);
+route.get('/', async (req, resp) => {
+    try {
+        const aulas = await Aula.find();
+
+        const aulasCompletas = [];
+
+        for (let a of aulas) {
+            const sede = await Sede.findById(a.sedeId);
+
+            aulasCompletas.push({
+                _id: a._id,
+                nombre: a.nombre,
+                capacidad: a.capacidad,
+                sedeId: a.sedeId,
+                fechaCreacion: a.fechaCreacion,
+                equipamiento: a.equipamiento,
+
+                // NUEVO → nombre real
+                sedeNombre: sede ? sede.nombre : "Sede no encontrada"
+            });
+        }
+
+        resp.json(aulasCompletas);
+
+    } catch (error) {
+        resp.status(500).json({ mensaje: error.message });
+    }
+});
+
+
 
 //Buscar por id
-route.get('/:id', async(req, resp) =>{
+route.get('/:id', async (req, resp) => {
+    try {
+        const a = await Aula.findById(req.params.id);
 
-       try {
+        if (!a) {
+            return resp.status(404).json({ mensaje: "Aula no encontrada" });
+        }
 
-               const aulaEncontrada = await Aula.findById(
-                         req.params.id
-                    );
+        const sede = await Sede.findById(a.sedeId);
 
-               if (!aulaEncontrada){
-                    return resp.status(404).json({mesaje: "Aula no encontrada"});
-               }
-            
-               resp.status(200).json(aulaEncontrada);
-       }catch(error){
-            resp.status(400).json({mesaje: error.message});
-       }
+        resp.json({
+            _id: a._id,
+            nombre: a.nombre,
+            capacidad: a.capacidad,
+            sedeId: a.sedeId,
+            equipamiento: a.equipamiento,
+            fechaCreacion: a.fechaCreacion,
 
+            sedeNombre: sede ? sede.nombre : "Sede no encontrada"
+        });
+
+    } catch (error) {
+        resp.status(400).json({ mensaje: error.message });
     }
-);
+});
+
 
 module.exports = route;

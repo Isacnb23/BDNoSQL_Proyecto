@@ -19,7 +19,7 @@ $(document).ready(function () {
                         <tr>
                             <td>${a.nombre}</td>
                             <td>${a.capacidad}</td>
-                            <td>${a.sedeId}</td>
+                            <td>${a.sedeNombre}</td>
                             <td>${a.equipamiento.join(", ")}</td>
                             <td>${new Date(a.fechaCreacion).toLocaleDateString()}</td>
                             <td>
