@@ -5,22 +5,6 @@ const sidebar = `
 
    <ul class="nav flex-column">
         <li>
-            <a data-page="inicio"
-            href="http://localhost:3000/module/home.html"
-            class="nav-link text-white">
-            <i class="fas fa-home me-2"></i>Inicio
-            </a>
-        </li>
-
-        <li>
-            <a data-page="sedes"
-            href="http://localhost:3000/module/sedes.html"
-            class="nav-link text-white">
-            <i class="fas fa-building me-2"></i>Sedes
-            </a>
-        </li>
-
-        <li>
             <a data-page="idiomas"
             href="http://localhost:3000/module/idiomas.html"
             class="nav-link text-white">
@@ -35,6 +19,15 @@ const sidebar = `
             <i class="fas fa-layer-group me-2"></i>Niveles
             </a>
         </li>
+
+        <li>
+            <a data-page="sedes"
+            href="http://localhost:3000/module/sedes.html"
+            class="nav-link text-white">
+            <i class="fas fa-building me-2"></i>Sedes
+            </a>
+        </li>
+
         <li>
             <a data-page="roles"
             href="http://localhost:3000/module/roles.html"
@@ -44,13 +37,6 @@ const sidebar = `
         </li>
 
         <li>
-            <a data-page="usuarios"
-            href="http://localhost:3000/module/usuarios.html"
-            class="nav-link text-white">
-            <i class="fas fa-users me-2"></i>Usuarios
-            </a>
-        </li>
-        <li>
             <a data-page="profesores"
             href="http://localhost:3000/module/profesores.html"
             class="nav-link text-white">
@@ -59,18 +45,18 @@ const sidebar = `
         </li>
 
         <li>
-            <a data-page="cursos"
-            href="http://localhost:3000/module/cursos.html"
+            <a data-page="estudiantes"
+            href="http://localhost:3000/module/estudiantes.html"
             class="nav-link text-white">
-            <i class="fas fa-book me-2"></i>Cursos
+            <i class="fas fa-user-graduate me-2"></i>Estudiantes
             </a>
         </li>
 
         <li>
-            <a data-page="horarios"
-            href="http://localhost:3000/module/horarios.html"
+            <a data-page="usuarios"
+            href="http://localhost:3000/module/usuarios.html"
             class="nav-link text-white">
-            <i class="fa-solid fa-calendar me-2"></i>Horarios
+            <i class="fas fa-users me-2"></i>Usuarios
             </a>
         </li>
 
@@ -83,7 +69,15 @@ const sidebar = `
         </li>
 
         <li>
-            <a data-page="aulas"
+            <a data-page="cursos"
+            href="http://localhost:3000/module/cursos.html"
+            class="nav-link text-white">
+            <i class="fas fa-book me-2"></i>Cursos
+            </a>
+        </li>
+
+        <li>
+            <a data-page="clases"
             href="http://localhost:3000/module/clases.html"
             class="nav-link text-white">
             <i class="fas fa-door-open me-2"></i>Clases
@@ -91,10 +85,26 @@ const sidebar = `
         </li>
 
         <li>
-            <a data-page="estudiantes"
-            href="http://localhost:3000/module/estudiantes.html"
+            <a data-page="horarios"
+            href="http://localhost:3000/module/horarios.html"
             class="nav-link text-white">
-            <i class="fas fa-user-graduate me-2"></i>Estudiantes
+            <i class="fa-solid fa-calendar me-2"></i>Horarios
+            </a>
+        </li>
+
+        <li>
+            <a data-page="materiales"
+            href="http://localhost:3000/module/materiales.html"
+            class="nav-link text-white">
+            <i class="fas fa-folder-open me-2"></i>Materiales
+            </a>
+        </li>
+
+        <li>
+            <a data-page="evaluaciones"
+            href="http://localhost:3000/module/evaluaciones.html"
+            class="nav-link text-white">
+            <i class="fas fa-file-alt me-2"></i>Evaluaciones
             </a>
         </li>
 
@@ -115,26 +125,10 @@ const sidebar = `
         </li>
 
         <li>
-            <a data-page="evaluaciones"
-            href="http://localhost:3000/module/evaluaciones.html"
-            class="nav-link text-white">
-            <i class="fas fa-file-alt me-2"></i>Evaluaciones
-            </a>
-        </li>
-
-        <li>
             <a data-page="pagos"
             href="http://localhost:3000/module/pagos2.html"
             class="nav-link text-white">
             <i class="fas fa-dollar-sign me-2"></i>Pagos
-            </a>
-        </li>
-
-        <li>
-            <a data-page="materiales"
-            href="http://localhost:3000/module/materiales.html"
-            class="nav-link text-white">
-            <i class="fas fa-folder-open me-2"></i>Materiales
             </a>
         </li>
 
@@ -146,6 +140,13 @@ const sidebar = `
             </a>
         </li>
 
+        <li>
+            <a data-page="inicio"
+            href="http://localhost:3000/module/home.html"
+            class="nav-link text-white">
+            <i class="fas fa-home me-2"></i>Inicio
+            </a>
+        </li>
     </ul>
 
 
