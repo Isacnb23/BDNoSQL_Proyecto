@@ -75,6 +75,22 @@ const sidebar = `
         </li>
 
         <li>
+            <a data-page="aulas"
+            href="http://localhost:3000/module/aulas.html"
+            class="nav-link text-white">
+            <i class="fas fa-chalkboard me-2"></i>Aulas
+            </a>
+        </li>
+
+        <li>
+            <a data-page="aulas"
+            href="http://localhost:3000/module/clases.html"
+            class="nav-link text-white">
+            <i class="fas fa-door-open me-2"></i>Clases
+            </a>
+        </li>
+
+        <li>
             <a data-page="estudiantes"
             href="http://localhost:3000/module/estudiantes.html"
             class="nav-link text-white">
