@@ -106,7 +106,8 @@ $(document).ready(function () {
                 $("#apellido").val(p.apellido);
                 $("#email").val(p.email);
                 $("#telefono").val(p.telefono);
-                $("#fechaNacimiento").val(p.fechaNacimiento);
+                $("#fechaNacimiento").val(p.fechaNacimiento?.substring(0, 10));
+
 
                 $("#estudianteModalLabel").text("Editar estudiante");
                 $("#estudianteModal").modal("show");

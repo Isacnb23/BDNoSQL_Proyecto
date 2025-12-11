@@ -108,10 +108,12 @@ $(document).ready(function () {
             url: `${API_CURSOS}/${id}`,
             method: "GET",
             success: function (curso) {
+                $("#cursoId").val(curso._id);
+
                 cargarIdiomas();
                 cargarNiveles();
                 cargarProfesores();
-                // Sin el delay no se muestran los selects, entonces hay que ponerle un timeOut para que carguen 
+
                 setTimeout(() => {
                     $("#nombre").val(curso.nombre);
                     $("#descripcion").val(curso.descripcion);
@@ -120,7 +122,6 @@ $(document).ready(function () {
                     $("#profesorId").val(curso.profesorId);
                 }, 200);
 
-                // Mostrar modal
                 $("#cursoModal").modal("show");
             },
             error: function () {
@@ -128,6 +129,7 @@ $(document).ready(function () {
             }
         });
     });
+
 
     $(document).on("click", ".eliminar", function () {
         const id = $(this).data("id");
