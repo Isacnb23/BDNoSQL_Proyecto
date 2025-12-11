@@ -5,13 +5,13 @@
   "nombre": "English Starter A1 Online",
   "descripcion": "Curso introductorio intensivo de Inglés para principiantes absolutos.",
   "idiomaId": {
-    "$oid": "665e7d4323d9b400a4f5f501"
+    "$oid": "690bc552106b6773039b1d06"
   },
   "nivelId": {
-    "$oid": "665e7d4847e3a510d9f1f101"
+    "$oid": "690bc625106b6773039b1d16"
   },
   "profesorId": {
-    "$oid": "665e7d5402a5a510c4f8d502"
+    "$oid": "690bc735106b6773039b1d29"
   },
   "fechaCreacion": {
     "$date": "2024-05-10T00:00:00.000Z"
@@ -24,13 +24,13 @@
   "nombre": "Advanced Conversation B2",
   "descripcion": "Mejora de la fluidez y debate de temas complejos.",
   "idiomaId": {
-    "$oid": "665e7d4323d9b400a4f5f501"
+    "$oid": "690bc552106b6773039b1d06"
   },
   "nivelId": {
-    "$oid": "665e7d4847e3a510d9f1f109"
+    "$oid": "690bc625106b6773039b1d1c"
   },
   "profesorId": {
-    "$oid": "665e7d5402a5a510c4f8d509"
+    "$oid": "690bc735106b6773039b1d32"
   },
   "fechaCreacion": {
     "$date": "2023-11-01T00:00:00.000Z"
@@ -43,13 +43,13 @@
   "nombre": "TOEFL Preparation C1",
   "descripcion": "Curso preparatorio enfocado en las cuatro secciones del examen TOEFL.",
   "idiomaId": {
-    "$oid": "665e7d4323d9b400a4f5f501"
+    "$oid": "690bc552106b6773039b1d08"
   },
   "nivelId": {
-    "$oid": "665e7d4847e3a510d9f1f10a"
+    "$oid": "690bc625106b6773039b1d1e"
   },
   "profesorId": {
-    "$oid": "665e7d5402a5a510c4f8d502"
+    "$oid": "690bc735106b6773039b1d25"
   },
   "fechaCreacion": {
     "$date": "2024-01-20T00:00:00.000Z"
@@ -62,13 +62,13 @@
   "nombre": "English for Business B2",
   "descripcion": "Vocabulario de negocios, presentaciones y redacción formal.",
   "idiomaId": {
-    "$oid": "665e7d4323d9b400a4f5f501"
+    "$oid": "690bc552106b6773039b1d06"
   },
   "nivelId": {
-    "$oid": "665e7d4847e3a510d9f1f10c"
+    "$oid": "690bc625106b6773039b1d1b"
   },
   "profesorId": {
-    "$oid": "665e7d5402a5a510c4f8d511"
+    "$oid": "690bc735106b6773039b1d24"
   },
   "fechaCreacion": {
     "$date": "2023-09-15T00:00:00.000Z"
@@ -81,13 +81,13 @@
   "nombre": "Français A2 - Quotidien",
   "descripcion": "Adquisición de la capacidad para manejar situaciones diarias y comunicarse en el extranjero.",
   "idiomaId": {
-    "$oid": "665e7d4323d9b400a4f5f503"
+    "$oid": "690bc552106b6773039b1d08"
   },
   "nivelId": {
-    "$oid": "665e7d4847e3a510d9f1f102"
+    "$oid": "690bc625106b6773039b1d16"
   },
   "profesorId": {
-    "$oid": "665e7d5402a5a510c4f8d503"
+    "$oid": "690bc735106b6773039b1d27"
   },
   "fechaCreacion": {
     "$date": "2024-04-01T00:00:00.000Z"
@@ -100,13 +100,13 @@
   "nombre": "Français B2.1",
   "descripcion": "Dominio de la gramática compleja y expresión de opiniones.",
   "idiomaId": {
-    "$oid": "665e7d4323d9b400a4f5f503"
+    "$oid": "690bc552106b6773039b1d08"
   },
   "nivelId": {
-    "$oid": "665e7d4847e3a510d9f1f105"
+    "$oid": "690bc625106b6773039b1d1c"
   },
   "profesorId": {
-    "$oid": "665e7d5402a5a510c4f8d503"
+    "$oid": "690bc735106b6773039b1d2c"
   },
   "fechaCreacion": {
     "$date": "2024-05-15T00:00:00.000Z"
@@ -119,13 +119,13 @@
   "nombre": "Hanyu Básico (Mandarín)",
   "descripcion": "Introducción a los tonos, Pinyin y primeros 150 caracteres (A1).",
   "idiomaId": {
-    "$oid": "665e7d4323d9b400a4f5f506"
+    "$oid": "690bc552106b6773039b1d0b"
   },
   "nivelId": {
-    "$oid": "665e7d4847e3a510d9f1f101"
+    "$oid": "690bc625106b6773039b1d15"
   },
   "profesorId": {
-    "$oid": "665e7d5402a5a510c4f8d50e"
+    "$oid": "690bc735106b6773039b1d2e"
   },
   "fechaCreacion": {
     "$date": "2024-03-25T00:00:00.000Z"
@@ -138,13 +138,13 @@
   "nombre": "Deutsch B1.1",
   "descripcion": "Transición hacia la fluidez, enfoque en verbos separables y subordinadas.",
   "idiomaId": {
-    "$oid": "665e7d4323d9b400a4f5f504"
+    "$oid": "690bc552106b6773039b1d09"
   },
   "nivelId": {
-    "$oid": "665e7d4847e3a510d9f1f103"
+    "$oid": "690bc625106b6773039b1d1a"
   },
   "profesorId": {
-    "$oid": "665e7d5402a5a510c4f8d511"
+    "$oid": "690bc735106b6773039b1d29"
   },
   "fechaCreacion": {
     "$date": "2024-02-01T00:00:00.000Z"
@@ -157,13 +157,13 @@
   "nombre": "Italiano para Viajeros A2",
   "descripcion": "Frases útiles para turismo, restaurantes y hoteles en Italia.",
   "idiomaId": {
-    "$oid": "665e7d4323d9b400a4f5f508"
+    "$oid": "690bc552106b6773039b1d0d"
   },
   "nivelId": {
-    "$oid": "665e7d4847e3a510d9f1f10e"
+    "$oid": "690bc625106b6773039b1d15"
   },
   "profesorId": {
-    "$oid": "665e7d5402a5a510c4f8d510"
+    "$oid": "690bc735106b6773039b1d28"
   },
   "fechaCreacion": {
     "$date": "2024-05-05T00:00:00.000Z"
@@ -176,13 +176,13 @@
   "nombre": "Gramática Española C1",
   "descripcion": "Análisis y uso de subjuntivo, perífrasis verbales y estructuras complejas.",
   "idiomaId": {
-    "$oid": "665e7d4323d9b400a4f5f502"
+    "$oid": "690bc552106b6773039b1d07"
   },
   "nivelId": {
-    "$oid": "665e7d4847e3a510d9f1f107"
+    "$oid": "690bc625106b6773039b1d1b"
   },
   "profesorId": {
-    "$oid": "665e7d5402a5a510c4f8d517"
+    "$oid": "690bc735106b6773039b1d24"
   },
   "fechaCreacion": {
     "$date": "2023-10-10T00:00:00.000Z"
@@ -195,13 +195,13 @@
   "nombre": "Japonés Introductorio A0",
   "descripcion": "Aprendizaje de Hiragana y Katakana y saludos básicos.",
   "idiomaId": {
-    "$oid": "665e7d4323d9b400a4f5f507"
+    "$oid": "690bc552106b6773039b1d0c"
   },
   "nivelId": {
-    "$oid": "665e7d4847e3a510d9f1f10b"
+    "$oid": "690bc625106b6773039b1d16"
   },
   "profesorId": {
-    "$oid": "665e7d5402a5a510c4f8d513"
+    "$oid": "690bc735106b6773039b1d32"
   },
   "fechaCreacion": {
     "$date": "2024-06-01T00:00:00.000Z"
@@ -214,13 +214,13 @@
   "nombre": "Português B1.2",
   "descripcion": "Consolidación del pasado y futuro, práctica de lectura de prensa brasileña/portuguesa.",
   "idiomaId": {
-    "$oid": "665e7d4323d9b400a4f5f505"
+    "$oid": "690bc552106b6773039b1d0a"
   },
   "nivelId": {
-    "$oid": "665e7d4847e3a510d9f1f104"
+    "$oid": "690bc625106b6773039b1d17"
   },
   "profesorId": {
-    "$oid": "665e7d5402a5a510c4f8d512"
+    "$oid": "690bc735106b6773039b1d2a"
   },
   "fechaCreacion": {
     "$date": "2023-12-01T00:00:00.000Z"
@@ -233,13 +233,13 @@
   "nombre": "Coreano - Nivel 2 (A2)",
   "descripcion": "Uso de estructuras honoríficas y vocabulario cotidiano más amplio.",
   "idiomaId": {
-    "$oid": "665e7d4323d9b400a4f5f50a"
+    "$oid": "690bc552106b6773039b1d0f"
   },
   "nivelId": {
-    "$oid": "665e7d4847e3a510d9f1f102"
+    "$oid": "690bc625106b6773039b1d19"
   },
   "profesorId": {
-    "$oid": "665e7d5402a5a510c4f8d516"
+    "$oid": "690bc735106b6773039b1d26"
   },
   "fechaCreacion": {
     "$date": "2024-01-05T00:00:00.000Z"
@@ -252,13 +252,13 @@
   "nombre": "Ruso C1",
   "descripcion": "Análisis de literatura, cine y debate de temas sociopolíticos.",
   "idiomaId": {
-    "$oid": "665e7d4323d9b400a4f5f509"
+    "$oid": "690bc552106b6773039b1d0e"
   },
   "nivelId": {
-    "$oid": "665e7d4847e3a510d9f1f107"
+    "$oid": "690bc625106b6773039b1d1c"
   },
   "profesorId": {
-    "$oid": "665e7d5402a5a510c4f8d515"
+    "$oid": "690bc735106b6773039b1d31"
   },
   "fechaCreacion": {
     "$date": "2023-08-15T00:00:00.000Z"
@@ -271,13 +271,13 @@
   "nombre": "Escritura Académica en Inglés",
   "descripcion": "Desarrollo de habilidades de redacción para informes y tesis universitarias.",
   "idiomaId": {
-    "$oid": "665e7d4323d9b400a4f5f501"
+    "$oid": "690bc552106b6773039b1d06"
   },
   "nivelId": {
-    "$oid": "665e7d4847e3a510d9f1f10f"
+    "$oid": "690bc625106b6773039b1d1c"
   },
   "profesorId": {
-    "$oid": "665e7d5402a5a510c4f8d502"
+    "$oid": "690bc735106b6773039b1d30"
   },
   "fechaCreacion": {
     "$date": "2023-04-10T00:00:00.000Z"
