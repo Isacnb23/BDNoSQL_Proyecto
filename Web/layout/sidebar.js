@@ -122,6 +122,30 @@ const sidebar = `
             </a>
         </li>
 
+        <li>
+            <a data-page="pagos"
+            href="http://localhost:3000/module/pagos2.html"
+            class="nav-link text-white">
+            <i class="fas fa-dollar-sign me-2"></i>Pagos
+            </a>
+        </li>
+
+        <li>
+            <a data-page="materiales"
+            href="http://localhost:3000/module/materiales.html"
+            class="nav-link text-white">
+            <i class="fas fa-folder-open me-2"></i>Materiales
+            </a>
+        </li>
+
+        <li>
+            <a data-page="certificados"
+            href="http://localhost:3000/module/certificados.html"
+            class="nav-link text-white">
+            <i class="fas fa-certificate me-2"></i>Certificados
+            </a>
+        </li>
+
     </ul>
 
 

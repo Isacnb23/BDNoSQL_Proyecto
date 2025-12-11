@@ -3,23 +3,28 @@ const mongoose = require('mongoose');
 const certificadoSchema = new mongoose.Schema({
     estudianteId: {
         type: mongoose.Schema.Types.ObjectId,
-        required: true
+        required: true,
+        ref: 'estudiante'
     },
     cursoId: {
         type: mongoose.Schema.Types.ObjectId,
-        required: true
+        required: true,
+        ref: 'curso'
     },
     fechaEmision: {
         type: Date,
-        default: Date.now
+        required: true
     },
     codigo: {
         type: String,
-        required: true
+        required: true,
+        unique: true
     },
     notaFinal: {
         type: Number,
-        required: true
+        required: true,
+        min: 0,
+        max: 100
     },
     fechaCreacion: {
         type: Date,

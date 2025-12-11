@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gestión de Pagos</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;700&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="../css/style.css"> 
+</head>
+
+<body data-page="pagos" class="d-flex">
+    <div id="sidebar"></div>
+
+    <div class="flex-grow-1 d-flex flex-column">
+        <main class="flex-grow-1 p-4">
+
+            <div id="content-pagos">
+                <div class="container-fluid">
+                    <h2 class="fw-bold text-center mb-4 text-primary">Gestión de Pagos</h2>
+                    <p class="text-center text-muted">Administración y control de pagos de estudiantes.</p>
+                    <hr class="mb-4">
+
+                    <button id="agregarPagoBtn" type="button" class="btn btn-primary mb-3 shadow-sm agregar-btn" data-bs-toggle="modal" data-bs-target="#pagoModal">
+                        <i class="fas fa-dollar-sign me-1"></i> Registrar Nuevo Pago
+                    </button>
+
+                    <div class="card shadow-lg mb-4">
+                        <div class="card-header py-3 bg-light">
+                            <h6 class="m-0 fw-bold text-dark">Listado de Pagos</h6>
+                        </div>
+                        <div class="card-body">
+                            <div class="table-responsive">
+                                <table class="table table-hover table-striped" id="tablaPagos" width="100%" cellspacing="0">
+                                    <thead>
+                                        <tr>
+                                            <th>Estudiante</th>
+                                            <th>Monto</th>
+                                            <th>Fecha Pago</th>
+                                            <th>Método de Pago</th>
+                                            <th>Estado</th>
+                                            <th>Fecha Registro</th>
+                                            <th>Acciones</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody id="pagosBody">
+                                    </tbody>
+                                </table>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Modal -->
+            <div class="modal fade" id="pagoModal" tabindex="-1" aria-labelledby="pagoModalLabel" aria-hidden="true">
+                <div class="modal-dialog">
+                    <div class="modal-content">
+                        <div class="modal-header bg-primary text-white">
+                            <h5 class="modal-title" id="pagoModalLabel">Formulario Pago</h5>
+                            <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <div class="modal-body">
+                            <form id="pagoForm">
+                                <input type="hidden" id="pagoId"> 
+                                
+                                <div class="mb-3">
+                                    <label for="estudianteId" class="form-label">Estudiante</label>
+                                    <select class="form-control" id="estudianteId" required>
+                                        <option value="">Seleccione un estudiante</option>
+                                    </select>
+                                </div>
+
+                                <div class="mb-3">
+                                    <label for="monto" class="form-label">Monto</label>
+                                    <input type="number" step="0.01" class="form-control" id="monto" required>
+                                </div>
+
+                                <div class="mb-3">
+                                    <label for="fechaPago" class="form-label">Fecha de Pago</label>
+                                    <input type="date" class="form-control" id="fechaPago" required>
+                                </div>
+
+                                <div class="mb-3">
+                                    <label for="metodoPago" class="form-label">Método de Pago</label>
+                                    <select class="form-control" id="metodoPago" required>
+                                        <option value="">Seleccione un método</option>
+                                        <option value="Tarjeta de Crédito">Tarjeta de Crédito</option>
+                                        <option value="Tarjeta de Débito">Tarjeta de Débito</option>
+                                        <option value="Transferencia Bancaria">Transferencia Bancaria</option>
+                                        <option value="PayPal">PayPal</option>
+                                        <option value="Efectivo">Efectivo</option>
+                                    </select>
+                                </div>
+
+                                <div class="mb-3">
+                                    <label for="estado" class="form-label">Estado</label>
+                                    <select class="form-control" id="estado" required>
+                                        <option value="">Seleccione un estado</option>
+                                        <option value="pagado">Pagado</option>
+                                        <option value="pendiente">Pendiente</option>
+                                        <option value="fallido">Fallido</option>
+                                    </select>
+                                </div>
+                            </form>
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+                            <button type="submit" class="btn btn-success guardar-btn" id="guardarPago">
+                                <i class="fas fa-save me-1"></i> Guardar
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </main>
+    </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"></script> 
+    <script src="../js/pagos.jquery.js"></script>  
+    <script src="../layout/sidebar.js"></script>
+    <script src="../js/logout.jquery.js"></script>
+</body>
+</html>

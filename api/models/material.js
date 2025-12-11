@@ -11,7 +11,8 @@ const materialSchema = new mongoose.Schema({
     },
     tipo: {
         type: String,
-        required: true
+        required: true,
+        enum: ['PDF', 'Video', 'Audio', 'Enlace', 'Libro Digital']
     },
     url: {
         type: String,
@@ -19,7 +20,8 @@ const materialSchema = new mongoose.Schema({
     },
     cursoId: {
         type: mongoose.Schema.Types.ObjectId,
-        required: true
+        required: true,
+        ref: 'curso'
     },
     fechaCreacion: {
         type: Date,
