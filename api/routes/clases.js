@@ -2,6 +2,8 @@ const express = require('express');
 const route = express.Router();
 
 const Clase = require('../models/clase');
+const Curso = require('../models/curso');
+const Profesor = require('../models/profesor');
 
 
 //Crear una nueva clase
@@ -80,25 +82,40 @@ route.delete('/:id', async(req, resp) =>{
 
 
 //Obtener datos
-route.get('/', async(req, resp) =>{
-               try {
-                         const claseDatos = await Clase.find();
-                         resp.json(claseDatos);
-               }catch(error){
-                         resp.status(500).json({mesaje: error.message});
-               }
-      }
-);
+route.get('/', async (req, resp) => {
+    try {
+        const clases = await Clase.find();
 
-route.get('/curso/:cursoId', async (req, res) => {
-  try {
-    const clases = await Clase.find({ cursoId: req.params.cursoId })
-                              .sort({ fecha: -1 });
-    res.json(clases);
-  } catch (error) {
-    res.status(500).json({ mensaje: error.message });
-  }
+        const clasesCompletas = [];
+
+        for (let c of clases) {
+            const curso = await Curso.findById(c.cursoId);
+            const profesor = await Profesor.findById(c.profesorId);
+
+            clasesCompletas.push({
+                _id: c._id,
+                fecha: c.fecha,
+                tema: c.tema,
+                descripcion: c.descripcion,
+                fechaCreacion: c.fechaCreacion,
+
+                // IDs originales
+                cursoId: c.cursoId,
+                profesorId: c.profesorId,
+
+                // Nombres agregados (lo que ocupa tu jQuery)
+                cursoNombre: curso ? curso.nombre : "Curso no encontrado",
+                profesorNombre: profesor ? `${profesor.nombre} ${profesor.apellido}` : "Profesor no encontrado"
+            });
+        }
+
+        resp.json(clasesCompletas);
+
+    } catch (error) {
+        resp.status(500).json({ mensaje: error.message });
+    }
 });
+
 
 
 //Buscar por id

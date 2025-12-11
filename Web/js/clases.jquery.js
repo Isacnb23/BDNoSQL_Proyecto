@@ -18,11 +18,11 @@ $(document).ready(function () {
                 clases.forEach(c => {
                     filas += `
                         <tr>
-                            <td>${c.cursoId}</td>
+                            <td>${c.cursoNombre}</td>
                             <td>${new Date(c.fecha).toLocaleDateString()}</td>
                             <td>${c.tema}</td>
                             <td>${c.descripcion}</td>
-                            <td>${c.profesorId}</td>
+                            <td>${c.profesorNombre}</td>
                             <td>${new Date(c.fechaCreacion).toLocaleDateString()}</td>
                             <td>
                                 <button class="btn btn-warning btn-sm editar" data-id="${c._id}">
