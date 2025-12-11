@@ -164,6 +164,10 @@ sidebarContainer.append(sidebar);
 const currentPage = $('body').data('page');
 $(`.nav-link[data-page="${currentPage}"]`).addClass('active');
 
+$(document).on("click", "#btnLogout", function () {
+    cerrarSesion();
+});
+
 function cerrarSesion() {
     localStorage.removeItem("usuarioLogueado");
     window.location.href = "http://localhost:3000/index.html";
