@@ -115,19 +115,21 @@ route.get('/', async (req, resp) => {
 );
 
 //Buscar por id
-route.get('/:id', async(req, resp) =>{
+route.get('/:id', async (req, resp) => {
     try {
-        const claseEncontrada = await Clase.findById(req.params.id);
+        const curso = await Curso.findById(req.params.id);
 
-        if (!claseEncontrada){
-            return resp.status(404).json({mesaje: "Clase no encontrada"});
+        if (!curso) {
+            return resp.status(404).json({ mensaje: "Curso no encontrado" });
         }
-        
-        resp.status(200).json(claseEncontrada);
-    }catch(error){
-        resp.status(400).json({mesaje: error.message});
+
+        resp.status(200).json(curso);
+
+    } catch (error) {
+        resp.status(400).json({ mensaje: error.message });
     }
 });
+
 
 
 module.exports = route;
