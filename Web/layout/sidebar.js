@@ -4,6 +4,15 @@ const sidebar = `
     <hr>
 
    <ul class="nav flex-column">
+
+        <li>
+            <a data-page="inicio"
+            href="http://localhost:3000/module/home.html"
+            class="nav-link text-white">
+            <i class="fas fa-home me-2"></i>Inicio
+            </a>
+        </li>
+
         <li>
             <a data-page="idiomas"
             href="http://localhost:3000/module/idiomas.html"
@@ -139,15 +148,6 @@ const sidebar = `
             <i class="fas fa-certificate me-2"></i>Certificados
             </a>
         </li>
-
-        <li>
-            <a data-page="inicio"
-            href="http://localhost:3000/module/home.html"
-            class="nav-link text-white">
-            <i class="fas fa-home me-2"></i>Inicio
-            </a>
-        </li>
-    </ul>
 
 
     <hr>
