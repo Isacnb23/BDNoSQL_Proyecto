@@ -113,6 +113,7 @@ $(document).ready(function () {
                 cargarProfesores();
                 // Sin el delay no se muestran los selects, entonces hay que ponerle un timeOut para que carguen 
                 setTimeout(() => {
+                     $("#cursoId").val(curso._id); 
                     $("#nombre").val(curso.nombre);
                     $("#descripcion").val(curso.descripcion);
                     $("#idiomaId").val(curso.idiomaId);
