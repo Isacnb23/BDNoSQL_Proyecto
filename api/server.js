@@ -41,7 +41,7 @@ app.use('/api', rutas);
 
 
 
-app.get('/', (req, res) => {
+app.get('/api', (req, res) => {
     res.json({ 
         mensaje: 'API Academia Europea funcionando',
         rutas: {
